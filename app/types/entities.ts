@@ -144,6 +144,7 @@ export interface EditMeetingSchedule {
 }
 
 export interface Host {
+  id: number;
   hostName: string;
   hostImage: ImageType;
   hostInstruction: string;

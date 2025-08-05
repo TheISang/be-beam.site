@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 
 export default function useHostFollowAndFollowCancelMutation(
   id: number,
-  host: Host,
+  host: Omit<Host, 'id'>,
   refetchKey: string,
 ) {
   const queryClient = useQueryClient();
