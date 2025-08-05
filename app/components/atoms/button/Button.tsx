@@ -12,12 +12,12 @@ const buttonVariants = cva(
         default:
           'bg-primary text-white hover:bg-primary/90 disabled:bg-gray-300 disabled:text-gray-500 disabled:border-gray-300',
         tertiary:
-          'bg-white text-gray-600 border border-gray-600 disabled:bg-gray-300 disabled:text-gray-500',
+          'bg-white text-gray-600 border border-gray-600 disabled:opacity-50',
       },
       size: {
-        md: 'h-13 px-4 py-2',
-        sm: 'h-12 gap-1.5 px-4',
-        lg: 'h-14.5 px-4',
+        sm: 'h-12 gap-1.5 px-10',
+        md: 'h-13 px-16',
+        lg: 'h-14.5 px-31',
         icon: 'size-9',
       },
     },

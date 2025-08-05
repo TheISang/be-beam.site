@@ -1,0 +1,220 @@
+import {Meta} from '@storybook/addon-docs/blocks';
+
+<Meta title="Theme/Typography" />
+
+# 타이포그래피
+
+## 개요
+
+비빔 서비스에서 사용하는 타이포그래피 스타일 가이드입니다. 일관된 디자인 시스템을 유지하기 위해 정의된 스타일을 준수해주세요.
+
+## 폰트 패밀리
+
+```css
+--font-sans: 'Pretendard Variable', 'Pretendard', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+```
+
+## 타이포그래피 스케일
+
+### 헤딩 (Heading)
+
+<table>
+  <thead>
+    <tr>
+      <th>스타일</th>
+      <th>크기</th>
+      <th>행간</th>
+      <th>자간</th>
+      <th>두께</th>
+      <th>예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>H1</td>
+      <td>1.625rem (26px)</td>
+      <td>1.4</td>
+      <td>0</td>
+      <td>700 (Bold)</td>
+      <td className='text-h1'>비빔 서비스</td>
+    </tr>
+    <tr>
+      <td>H2</td>
+      <td>1.5rem (24px)</td>
+      <td>1.2</td>
+      <td>0</td>
+      <td>600 (SemiBold)</td>
+      <td className='text-h2'>서비스 소개</td>
+    </tr>
+  </tbody>
+</table>
+
+### 타이틀 (Title)
+
+<table>
+  <thead>
+    <tr>
+      <th>스타일</th>
+      <th>크기</th>
+      <th>행간</th>
+      <th>자간</th>
+      <th>두께</th>
+      <th>예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T1</td>
+      <td>1.25rem (20px)</td>
+      <td>1.2</td>
+      <td>0</td>
+      <td>400 (Regular)</td>
+      <td className='text-t1'>타이틀 텍스트</td>
+    </tr>
+    <tr>
+      <td>T2</td>
+      <td>1.125rem (18px)</td>
+      <td>1.2</td>
+      <td>0</td>
+      <td>600 (SemiBold)</td>
+      <td className='text-t2'>중요한 제목</td>
+    </tr>
+    <tr>
+      <td>T3</td>
+      <td>1rem (16px)</td>
+      <td>1.2</td>
+      <td>0</td>
+      <td>600 (SemiBold)</td>
+      <td className='text-t3'>소제목</td>
+    </tr>
+    <tr>
+      <td>T4</td>
+      <td>1rem (16px)</td>
+      <td>1.4</td>
+      <td>0</td>
+      <td>400 (Regular)</td>
+      <td className='text-t4'>일반적인 텍스트</td>
+    </tr>
+  </tbody>
+</table>
+
+### 본문 (Body)
+
+<table>
+  <thead>
+    <tr>
+      <th>스타일</th>
+      <th>크기</th>
+      <th>행간</th>
+      <th>자간</th>
+      <th>두께</th>
+      <th>예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B1</td>
+      <td>0.875rem (14px)</td>
+      <td>1.2</td>
+      <td>0</td>
+      <td>600 (SemiBold)</td>
+      <td className='text-b1'>강조 텍스트</td>
+    </tr>
+    <tr>
+      <td>B2</td>
+      <td>0.875rem (14px)</td>
+      <td>1.4</td>
+      <td>0</td>
+      <td>500 (Medium)</td>
+      <td className='text-b2'>중요한 본문</td>
+    </tr>
+    <tr>
+      <td>B3</td>
+      <td>0.875rem (14px)</td>
+      <td>1.4</td>
+      <td>0</td>
+      <td>400 (Regular)</td>
+      <td className='text-b3'>일반 본문</td>
+    </tr>
+  </tbody>
+</table>
+
+### 캡션 (Caption)
+
+<table>
+  <thead>
+    <tr>
+      <th>스타일</th>
+      <th>크기</th>
+      <th>행간</th>
+      <th>자간</th>
+      <th>두께</th>
+      <th>예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C1</td>
+      <td>0.8125rem (13px)</td>
+      <td>1.2</td>
+      <td>0</td>
+      <td>600 (SemiBold)</td>
+      <td className='text-c1'>강조 캡션</td>
+    </tr>
+    <tr>
+      <td>C2</td>
+      <td>0.8125rem (13px)</td>
+      <td>1.4</td>
+      <td>0</td>
+      <td>400 (Regular)</td>
+      <td className='text-c2'>일반 캡션</td>
+    </tr>
+    <tr>
+      <td>C3</td>
+      <td>0.75rem (12px)</td>
+      <td>1.2</td>
+      <td>0</td>
+      <td>400 (Regular)</td>
+      <td className='text-c3'>작은 텍스트</td>
+    </tr>
+  </tbody>
+</table>
+
+## 사용 예시
+
+### React 컴포넌트에서의 사용법
+
+```jsx
+// CSS 클래스를 사용한 예시
+<h1 className="text-h1">페이지 제목</h1>
+<p className="text-t4">일반적인 본문 텍스트입니다.</p>
+<span className="text-c2">보조 텍스트</span>
+
+// 인라인 스타일을 사용한 예시
+<div style={{
+  fontSize: 'var(--text-t1)',
+  lineHeight: 'var(--text-t1--line-height)',
+  fontWeight: 'var(--text-t1--font-weight)'
+}}>
+  타이틀 스타일
+</div>
+```
+
+## 주의사항
+
+1. 모든 텍스트는 가독성을 위해 최소 12px 이상을 유지해주세요.
+2. 행간(Line Height)은 텍스트의 가독성을 위해 반드시 지정해주세요.
+3. 모바일 환경에서는 가독성을 위해 글자 크기를 조정해야 할 수 있습니다.
+4. 폰트 두께는 400(Regular), 500(Medium), 600(SemiBold), 700(Bold)만 사용합니다.
+
+## CSS 변수 참조
+
+각 타이포그래피 스타일은 다음과 같은 CSS 변수로 정의되어 있습니다:
+
+```css
+/* 예시: H1 스타일 */
+--text-h1: 1.625rem;
+--text-h1--line-height: 1.4;
+--text-h1--letter-spacing: 0;
+--text-h1--font-weight: 700;
+```
