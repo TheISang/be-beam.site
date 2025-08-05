@@ -4,6 +4,6 @@ export default function HomeTemplate({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex w-full flex-col items-center pt-20">{children}</div>
+    <div className="flex w-full flex-col items-center pt-45">{children}</div>
   );
 }

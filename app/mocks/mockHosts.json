@@ -1,0 +1,21 @@
+{
+  "hosts": [
+    {
+      "id": 1086,
+      "hostName": "호스트86",
+      "hostImage": "https://i.pinimg.com/736x/f8/1c/3f/f81c3f8efec9743d2002b98f8278332b.jpg",
+      "hostInstruction": "호스트86 프로필 소개입니다!",
+      "followCount": 52,
+      "followed": false,
+      "openingMeetingCount": 1,
+      "openingMeetings": [
+        {
+          "id": 86,
+          "meetingImage": "https://i.pinimg.com/736x/0d/09/8d/0d098ddf4a9b88c328470f7f54977301.jpg",
+          "meetingName": "디저트 모임 86회차",
+          "topic": "사진"
+        }
+      ]
+    }
+  ]
+}

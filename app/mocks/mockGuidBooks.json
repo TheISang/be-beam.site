@@ -1,0 +1,934 @@
+{
+  "guideBooks": [
+    {
+      "id": 1,
+      "title": "가이드북1",
+      "image": "https://i.pinimg.com/736x/51/68/81/51688108d30a1db262a46ccc3c96d80f.jpg",
+      "description": "가이드북 소개 1",
+      "type": "engagement",
+      "targetType": "participant",
+      "level": "completed",
+      "time": "over1hour"
+    },
+    {
+      "id": 2,
+      "title": "가이드북2",
+      "image": "https://i.pinimg.com/736x/2a/13/d4/2a13d45d3b14dc385c87fd329be5610d.jpg",
+      "description": "저는 귀여운 것들이 너무 좋습니다...!\n그래서 더욱 더 귀여움을 즐기실 수 있도록 귀여운 가이드북을 준비했어요!XD",
+      "type": "operation",
+      "targetType": "planner",
+      "level": "before",
+      "time": "under30min"
+    },
+    {
+      "id": 3,
+      "title": "가이드북3",
+      "image": "https://i.pinimg.com/736x/5c/9f/77/5c9f77e7e553acba6d21229f38b3dc70.jpg",
+      "description": "가이드북 소개 3",
+      "type": "planning",
+      "targetType": "participant",
+      "level": "ongoing",
+      "time": "under1hour"
+    },
+    {
+      "id": 4,
+      "title": "가이드북4",
+      "image": "https://i.pinimg.com/736x/01/a2/2d/01a22d150711e1814d6f74509d024473.jpg",
+      "description": "가이드북 소개 4",
+      "type": "planning",
+      "targetType": " planner",
+      "level": "completed",
+      "time": "under30min"
+    },
+    {
+      "id": 5,
+      "title": "가이드북5",
+      "image": "https://i.pinimg.com/736x/62/d3/2b/62d32be9e7b9ee0b5a84cfcdd05194d8.jpg",
+      "description": "가이드북 소개 5",
+      "type": "communication",
+      "targetType": "participant",
+      "level": "before",
+      "time": "over1hour"
+    },
+    {
+      "id": 6,
+      "title": "가이드북6",
+      "image": "https://i.pinimg.com/736x/01/11/cf/0111cf6c11f296ee6098d55e4ca44c50.jpg",
+      "description": "가이드북 소개 6",
+      "type": "communication",
+      "targetType": "planner",
+      "level": "before",
+      "time": "over1hour"
+    },
+    {
+      "id": 7,
+      "title": "가이드북7",
+      "image": "https://i.pinimg.com/736x/bc/89/b7/bc89b745b556b34911329d5dc1828803.jpg",
+      "description": "가이드북 소개 7",
+      "type": "planning",
+      "targetType": "planner",
+      "level": "before",
+      "time": "over1hour"
+    },
+    {
+      "id": 8,
+      "title": "가이드북8",
+      "image": "https://i.pinimg.com/736x/a0/d2/06/a0d2061e1d0d002f4a684e1da25041ca.jpg",
+      "description": "가이드북 소개 8",
+      "type": "support",
+      "targetType": "participant",
+      "level": "before",
+      "time": "over1hour"
+    },
+    {
+      "id": 9,
+      "title": "가이드북9",
+      "image": "https://i.pinimg.com/736x/1a/25/10/1a251092671cee86c277dedd927e3b03.jpg",
+      "description": "가이드북 소개 9",
+      "type": "operation",
+      "targetType": "planner",
+      "level": "before",
+      "time": "over1hour"
+    },
+    {
+      "id": 10,
+      "title": "가이드북10",
+      "image": "https://i.pinimg.com/736x/b4/cd/56/b4cd5678e42bab7605f2e13d17b23e8d.jpg",
+      "description": "가이드북 소개 10",
+      "type": "support",
+      "targetType": "planner",
+      "level": "before",
+      "time": "over1hour"
+    },
+    {
+      "id": 11,
+      "title": "가이드북11",
+      "image": "https://i.pinimg.com/736x/bf/f9/99/bff9991dd4cba219be832521c2b12bf0.jpg",
+      "description": "가이드북 소개 11",
+      "type": "planning",
+      "targetType": "participant",
+      "level": "before",
+      "time": "over1hour"
+    },
+    {
+      "id": 12,
+      "title": "가이드북12",
+      "image": "https://i.pinimg.com/736x/34/74/c8/3474c8c320aab919adeaf136bc93ccff.jpg",
+      "description": "가이드북 소개 12",
+      "type": "communication",
+      "targetType": "participant",
+      "level": "before",
+      "time": "over1hour"
+    },
+    {
+      "id": 13,
+      "title": "가이드북13",
+      "image": "https://i.pinimg.com/736x/45/ad/a0/45ada0ed1dbc731f205aac3648a458ce.jpg",
+      "description": "가이드북 소개 13",
+      "type": "operation",
+      "targetType": "planner",
+      "level": "ongoing",
+      "time": "under30min"
+    },
+    {
+      "id": 14,
+      "title": "가이드북14",
+      "image": "https://i.pinimg.com/736x/bb/a9/08/bba908d1b0f4e64d9243467ec6e5e72a.jpg",
+      "description": "가이드북 소개 14",
+      "type": "engagement",
+      "targetType": "planner",
+      "level": "ongoing",
+      "time": "over1hour"
+    },
+    {
+      "id": 15,
+      "title": "가이드북15",
+      "image": "https://i.pinimg.com/736x/e0/2b/c2/e02bc24fe0310cfa9d74a2b6dffdc47e.jpg",
+      "description": "가이드북 소개 15",
+      "type": "support",
+      "targetType": "participant",
+      "level": "before",
+      "time": "under1hour"
+    },
+    {
+      "id": 16,
+      "title": "가이드북16",
+      "image": "https://i.pinimg.com/736x/db/75/85/db75854902293a403c63b6185ebe3cb9.jpg",
+      "description": "가이드북 소개 16",
+      "type": "communication",
+      "targetType": "planner",
+      "level": "completed",
+      "time": "under30min"
+    },
+    {
+      "id": 17,
+      "title": "가이드북17",
+      "image": "https://i.pinimg.com/736x/c1/9b/92/c19b92a1e273c2934630617aac91679a.jpg",
+      "description": "가이드북 소개 17",
+      "type": "operation",
+      "targetType": "participant",
+      "level": "ongoing",
+      "time": "under30min"
+    },
+    {
+      "id": 18,
+      "title": "가이드북18",
+      "image": "https://i.pinimg.com/736x/f7/fc/2c/f7fc2c86606f69a523486bb313b02e51.jpg",
+      "description": "가이드북 소개 18",
+      "type": "support",
+      "targetType": "planner",
+      "level": "ongoing",
+      "time": "over1hour"
+    },
+    {
+      "id": 19,
+      "title": "가이드북19",
+      "image": "https://i.pinimg.com/736x/d3/5f/d9/d35fd929ba639f1b443e2d56d27b1aec.jpg",
+      "description": "가이드북 소개 19",
+      "type": "planning",
+      "targetType": "planner",
+      "level": "before",
+      "time": "under1hour"
+    }
+  ],
+  "guideBookDetail": [
+    {
+      "id": 1,
+      "title": "가이드북1",
+      "guidbookType": "참여 유도",
+      "hashtags": ["여행", "음식", "요리"],
+      "description": "가이드북 소개 1",
+      "images": [
+        "https://i.pinimg.com/736x/51/68/81/51688108d30a1db262a46ccc3c96d80f.jpg",
+        "https://i.pinimg.com/736x/ad/77/c8/ad77c82cc535f61c0b380fc6095093bb.jpg",
+        "https://i.pinimg.com/736x/ec/b9/24/ecb9246b5a3a06e327c892a311beb198.jpg",
+        "https://i.pinimg.com/736x/55/86/20/5586209034ffad399184efb04066ee62.jpg",
+        "https://i.pinimg.com/736x/28/20/4e/28204e12ae381ec12bc7addaacbba0de.jpg"
+      ],
+      "targetType": "참여자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 내외",
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 14,
+          "title": "가이드북14",
+          "image": "https://i.pinimg.com/736x/bb/a9/08/bba908d1b0f4e64d9243467ec6e5e72a.jpg",
+          "description": "가이드북 소개 14"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "가이드북2",
+      "description": "저는 귀여운 것들이 너무 좋습니다...!\n그래서 더욱 더 귀여움을 즐기실 수 있도록 귀여운 가이드북을 준비했어요!XD",
+      "guidbookType": "운영",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 시작 전",
+      "time": "30분 미만",
+      "hashtags": ["메이크업", "쇼핑", "자기 관리"],
+      "images": [
+        "https://i.pinimg.com/736x/2a/13/d4/2a13d45d3b14dc385c87fd329be5610d.jpg",
+        "https://i.pinimg.com/736x/15/db/3b/15db3b7a906d2af215e22d10c7d6fc48.jpg",
+        "https://i.pinimg.com/736x/2c/1b/2d/2c1b2d1ab70dbffff74b5d908bb08b66.jpg",
+        "https://i.pinimg.com/736x/d2/bd/84/d2bd847900302ece02e91b034b4415ff.jpg",
+        "https://i.pinimg.com/736x/83/69/c6/8369c6bd8ea60e8b7e685bcf71dbf054.jpg",
+        "https://i.pinimg.com/736x/0b/60/35/0b6035126e2b41e8636c4c10b55a7388.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 9,
+          "title": "가이드북9",
+          "image": "https://i.pinimg.com/736x/1a/25/10/1a251092671cee86c277dedd927e3b03.jpg",
+          "description": "가이드북 소개 9"
+        },
+        {
+          "id": 13,
+          "title": "가이드북13",
+          "image": "https://i.pinimg.com/736x/45/ad/a0/45ada0ed1dbc731f205aac3648a458ce.jpg",
+          "description": "가이드북 소개 13"
+        },
+        {
+          "id": 17,
+          "title": "가이드북17",
+          "image": "https://i.pinimg.com/736x/c1/9b/92/c19b92a1e273c2934630617aac91679a.jpg",
+          "description": "가이드북 소개 17"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "가이드북3",
+      "description": "가이드북 소개 3",
+      "guidbookType": "프로그램 기획",
+      "targetType": "참여자",
+      "level": "커뮤니티 진행 중",
+      "time": "1시간 내외",
+      "hashtags": ["운동", "다이어트", "헬스", "식단"],
+      "images": [
+        "https://i.pinimg.com/736x/5c/9f/77/5c9f77e7e553acba6d21229f38b3dc70.jpg",
+        "https://i.pinimg.com/736x/0d/67/cd/0d67cd73ab3a3d46ca45efa542ac47cd.jpg",
+        "https://i.pinimg.com/736x/0d/67/cd/0d67cd73ab3a3d46ca45efa542ac47cd.jpg",
+        "https://i.pinimg.com/736x/d9/76/f8/d976f8e6a865cdae0d977f465354a595.jpg",
+        "https://i.pinimg.com/736x/47/c0/0a/47c00a26e00c33470c5251d5f8dc02c3.jpg",
+        "https://i.pinimg.com/736x/c5/b9/d7/c5b9d71ca27dffa4e74e5b749f9c8aa6.jpg",
+        "https://i.pinimg.com/736x/62/70/47/6270476a5801b5ae5490f2d1bdbf3418.jpg",
+        "https://i.pinimg.com/736x/bd/5b/40/bd5b4020bfb3008835297116fa2b07a0.jpg",
+        "https://i.pinimg.com/736x/6e/31/9d/6e319d75917ff5994b74e3354f2b44fe.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 7,
+          "title": "가이드북7",
+          "image": "https://i.pinimg.com/736x/bc/89/b7/bc89b745b556b34911329d5dc1828803.jpg",
+          "description": "가이드북 소개 7"
+        },
+        {
+          "id": 11,
+          "title": "가이드북11",
+          "image": "https://i.pinimg.com/736x/bf/f9/99/bff9991dd4cba219be832521c2b12bf0.jpg",
+          "description": "가이드북 소개 11"
+        },
+        {
+          "id": 4,
+          "title": "가이드북4",
+          "image": "https://i.pinimg.com/736x/01/a2/2d/01a22d150711e1814d6f74509d024473.jpg",
+          "description": "가이드북 소개 4"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "가이드북4",
+      "description": "가이드북 소개 4",
+      "guidbookType": "프로그램 기획",
+      "targetType": " 커뮤니티 기획자",
+      "level": "커뮤니티 마무리",
+      "time": "30분 미만",
+      "hashtags": ["그림", "예술"],
+      "images": [
+        "https://i.pinimg.com/736x/01/a2/2d/01a22d150711e1814d6f74509d024473.jpg",
+        "https://i.pinimg.com/736x/31/d2/a9/31d2a9f8fbce747829e56035de1ae0f2.jpg",
+        "https://i.pinimg.com/736x/63/43/bb/6343bbf8c6181dda111c051f56385244.jpg",
+        "https://i.pinimg.com/736x/2a/45/96/2a459660f5fed7cf3536317ecc68746b.jpg",
+        "https://i.pinimg.com/736x/54/ae/6f/54ae6f86218f2996e111e7c7eeb18d1f.jpg",
+        "https://i.pinimg.com/736x/68/c2/61/68c261faa110a9400e3780d2907fc51d.jpg",
+        "https://i.pinimg.com/736x/5e/a9/32/5ea93260022e4fa1f5cceb2c9f41fbee.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 11,
+          "title": "가이드북11",
+          "image": "https://i.pinimg.com/736x/bf/f9/99/bff9991dd4cba219be832521c2b12bf0.jpg",
+          "description": "가이드북 소개 11"
+        },
+        {
+          "id": 3,
+          "title": "가이드북3",
+          "image": "https://i.pinimg.com/736x/5c/9f/77/5c9f77e7e553acba6d21229f38b3dc70.jpg",
+          "description": "가이드북 소개 3"
+        },
+        {
+          "id": 19,
+          "title": "가이드북19",
+          "image": "https://i.pinimg.com/736x/d3/5f/d9/d35fd929ba639f1b443e2d56d27b1aec.jpg",
+          "description": "가이드북 소개 19"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "가이드북5",
+      "description": "가이드북 소개 5",
+      "guidbookType": "소통",
+      "targetType": "참여자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 내외",
+      "hashtags": ["IT", "공부", "자기 개발"],
+      "images": [
+        "https://i.pinimg.com/736x/50/e7/83/50e783abb2e7cd57856f13ab743a619f.jpg",
+        "https://i.pinimg.com/736x/8d/7c/1d/8d7c1d0004568eaf629ba7a9d6872d8a.jpg",
+        "https://i.pinimg.com/736x/65/4d/32/654d3256286b846331c8d20f6f3d7061.jpg",
+        "https://i.pinimg.com/736x/6d/0b/22/6d0b22fd84dcf4d5a2cb709a7b14dc13.jpg",
+        "https://i.pinimg.com/736x/af/7d/49/af7d4991436fe58cfdde004be75c296b.jpg",
+        "https://i.pinimg.com/736x/b9/3e/e0/b93ee069a76a55ae6f8f22b9b20ac7a9.jpg",
+        "https://i.pinimg.com/736x/a0/aa/31/a0aa312bac74d71260586ff8ae144aa2.jpg",
+        "https://i.pinimg.com/736x/fb/6b/b3/fb6bb336c93e2f6b2ab00a2f04ea10fa.jpg",
+        "https://i.pinimg.com/736x/87/f7/56/87f75634e32362cafbbb7fde7dfd62c2.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 16,
+          "title": "가이드북16",
+          "image": "https://i.pinimg.com/736x/db/75/85/db75854902293a403c63b6185ebe3cb9.jpg",
+          "description": "가이드북 소개 16"
+        },
+        {
+          "id": 6,
+          "title": "가이드북6",
+          "image": "https://i.pinimg.com/736x/01/11/cf/0111cf6c11f296ee6098d55e4ca44c50.jpg",
+          "description": "가이드북 소개 6"
+        },
+        {
+          "id": 12,
+          "title": "가이드북12",
+          "image": "https://i.pinimg.com/736x/34/74/c8/3474c8c320aab919adeaf136bc93ccff.jpg",
+          "description": "가이드북 소개 12"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "가이드북6",
+      "description": "가이드북 소개 6",
+      "guidbookType": "소통",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 이상",
+      "hashtags": ["스피킹", "영어", "회화", "미드"],
+      "images": [
+        "https://i.pinimg.com/736x/01/11/cf/0111cf6c11f296ee6098d55e4ca44c50.jpg",
+        "https://i.pinimg.com/736x/23/17/27/23172721e3c517f49d5420a3a99c49ea.jpg",
+        "https://i.pinimg.com/736x/7a/fe/24/7afe24da7eae00e9bbb0894b32d5e775.jpg",
+        "https://i.pinimg.com/736x/23/17/27/23172721e3c517f49d5420a3a99c49ea.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 5,
+          "title": "가이드북5",
+          "image": "https://i.pinimg.com/736x/50/e7/83/50e783abb2e7cd57856f13ab743a619f.jpg",
+          "description": "가이드북 소개 5"
+        },
+        {
+          "id": 12,
+          "title": "가이드북12",
+          "image": "https://i.pinimg.com/736x/34/74/c8/3474c8c320aab919adeaf136bc93ccff.jpg",
+          "description": "가이드북 소개 12"
+        },
+        {
+          "id": 16,
+          "title": "가이드북16",
+          "image": "https://i.pinimg.com/736x/db/75/85/db75854902293a403c63b6185ebe3cb9.jpg",
+          "description": "가이드북 소개 16"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "가이드북7",
+      "description": "가이드북 소개 7",
+      "guidbookType": "프로그램 기획",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 이상",
+      "hashtags": ["음악", "노래", "팝송"],
+      "images": [
+        "https://i.pinimg.com/736x/bc/89/b7/bc89b745b556b34911329d5dc1828803.jpg",
+        "https://i.pinimg.com/736x/2f/b8/82/2fb882403f71070072ef21d0425824dd.jpg",
+        "https://i.pinimg.com/736x/96/05/38/960538d5c10b08df69443b67d5af7701.jpg",
+        "https://i.pinimg.com/736x/42/89/4f/42894f630a280d18eea5c21b342c6f91.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 19,
+          "title": "가이드북19",
+          "image": "https://i.pinimg.com/736x/d3/5f/d9/d35fd929ba639f1b443e2d56d27b1aec.jpg"
+        },
+        {
+          "id": 4,
+          "title": "가이드북4",
+          "image": "https://i.pinimg.com/736x/01/a2/2d/01a22d150711e1814d6f74509d024473.jpg"
+        },
+        {
+          "id": 3,
+          "title": "가이드북3",
+          "image": "https://i.pinimg.com/736x/5c/9f/77/5c9f77e7e553acba6d21229f38b3dc70.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "가이드북8",
+      "description": "가이드북 소개 8",
+      "guidbookType": "운영 지원",
+      "targetType": "참여자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 이상",
+      "hashtags": ["주식", "투자"],
+      "images": [
+        "https://i.pinimg.com/736x/a0/d2/06/a0d2061e1d0d002f4a684e1da25041ca.jpg",
+        "https://i.pinimg.com/736x/6a/d0/3f/6ad03fd02261aa0e1e86fbc3eae045e3.jpg",
+        "https://i.pinimg.com/736x/eb/0e/f1/eb0ef1e19909cb675c9e155739cf2a6d.jpg",
+        "https://i.pinimg.com/736x/d4/87/42/d48742b2f2dc6e08363a34d8aa539899.jpg",
+        "https://i.pinimg.com/736x/af/a6/3d/afa63d55269f425cec3f5953b772db2a.jpg",
+        "https://i.pinimg.com/736x/d5/b3/ed/d5b3edc6b73b95abb5ba296a0a160dba.jpg",
+        "https://i.pinimg.com/736x/0b/7f/43/0b7f43e4d455c81d1be4c6def0a67a92.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 15,
+          "title": "가이드북15",
+          "image": "https://i.pinimg.com/736x/e0/2b/c2/e02bc24fe0310cfa9d74a2b6dffdc47e.jpg",
+          "description": "가이드북 소개 15"
+        },
+        {
+          "id": 10,
+          "title": "가이드북10",
+          "image": "https://i.pinimg.com/736x/b4/cd/56/b4cd5678e42bab7605f2e13d17b23e8d.jpg",
+          "description": "가이드북 소개 10"
+        },
+        {
+          "id": 18,
+          "title": "가이드북18",
+          "image": "https://i.pinimg.com/736x/f7/fc/2c/f7fc2c86606f69a523486bb313b02e51.jpg",
+          "description": "가이드북 소개 18"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "가이드북9",
+      "description": "가이드북 소개 9",
+      "guidbookType": "운영",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 이상",
+      "hashtags": ["밥", "요리", "레시피"],
+      "images": [
+        "https://i.pinimg.com/736x/1a/25/10/1a251092671cee86c277dedd927e3b03.jpg",
+        "https://i.pinimg.com/736x/41/46/89/414689e59ab4272aa5fcc7045f725103.jpg",
+        "https://i.pinimg.com/736x/c1/11/6a/c1116ac27710db58ab5aa2121d3f34bc.jpg",
+        "https://i.pinimg.com/736x/ea/86/90/ea86905f45580a24a23c7b2be59bcc08.jpg",
+        "https://i.pinimg.com/736x/e6/66/d2/e666d203d27fe2eec0b28a1c2628b83b.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 2,
+          "title": "가이드북2",
+          "image": "https://i.pinimg.com/736x/2a/13/d4/2a13d45d3b14dc385c87fd329be5610d.jpg",
+          "description": "저는 귀여운 것들이 너무 좋습니다...!\n그래서 더욱 더 귀여움을 즐기실 수 있도록 귀여운 가이드북을 준비했어요!XD"
+        },
+        {
+          "id": 17,
+          "title": "가이드북17",
+          "image": "https://i.pinimg.com/736x/c1/9b/92/c19b92a1e273c2934630617aac91679a.jpg",
+          "description": "가이드북 소개 17"
+        },
+        {
+          "id": 13,
+          "title": "가이드북13",
+          "image": "https://i.pinimg.com/736x/45/ad/a0/45ada0ed1dbc731f205aac3648a458ce.jpg",
+          "description": "가이드북 소개 13"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "가이드북10",
+      "description": "가이드북 소개 10",
+      "guidbookType": "운영 지원",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 이상",
+      "hashtags": ["연애", "사랑", "소개팅"],
+      "images": [
+        "https://i.pinimg.com/736x/b4/cd/56/b4cd5678e42bab7605f2e13d17b23e8d.jpg",
+        "https://i.pinimg.com/736x/3d/39/18/3d391869d746ed4309a14f5d2c5eaf87.jpg",
+        "https://i.pinimg.com/736x/dd/cf/65/ddcf655b1f7fc8e1df6aa0e368eb912b.jpg",
+        "https://i.pinimg.com/736x/20/9e/30/209e30f052bc9c4378b88b417ef3821b.jpg",
+        "https://i.pinimg.com/736x/13/d6/24/13d624efee9651fbc56841050f8c9620.jpg",
+        "https://i.pinimg.com/736x/40/12/77/401277c4ef95b64841df7d68f0259b97.jpg",
+        "https://i.pinimg.com/736x/c6/42/2d/c6422d43ffe7171f7f25159dc4ff5721.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 15,
+          "title": "가이드북15",
+          "image": "https://i.pinimg.com/736x/e0/2b/c2/e02bc24fe0310cfa9d74a2b6dffdc47e.jpg",
+          "description": "가이드북 소개 15"
+        },
+        {
+          "id": 8,
+          "title": "가이드북8",
+          "image": "https://i.pinimg.com/736x/a0/d2/06/a0d2061e1d0d002f4a684e1da25041ca.jpg",
+          "description": "가이드북 소개 8"
+        },
+        {
+          "id": 18,
+          "title": "가이드북18",
+          "image": "https://i.pinimg.com/736x/f7/fc/2c/f7fc2c86606f69a523486bb313b02e51.jpg",
+          "description": "가이드북 소개 18"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "가이드북11",
+      "description": "가이드북 소개 11",
+      "guidbookType": "프로그램 기획",
+      "targetType": "참여자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 이상",
+      "hashtags": ["운동", "주짓수", "유도", "헬스", "달리기"],
+      "images": [
+        "https://i.pinimg.com/736x/bf/f9/99/bff9991dd4cba219be832521c2b12bf0.jpg",
+        "https://i.pinimg.com/736x/6b/67/04/6b6704dc93b545773ce6bce3f8f24833.jpg",
+        "https://i.pinimg.com/736x/8f/80/4a/8f804a99230cc29f84657ec6e747b0f7.jpg",
+        "https://i.pinimg.com/736x/f5/d0/da/f5d0dad2f0b782aaa80bcbc118575de7.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 3,
+          "title": "가이드북3",
+          "image": "https://i.pinimg.com/736x/5c/9f/77/5c9f77e7e553acba6d21229f38b3dc70.jpg",
+          "description": "가이드북 소개 3"
+        },
+        {
+          "id": 19,
+          "title": "가이드북19",
+          "image": "https://i.pinimg.com/736x/d3/5f/d9/d35fd929ba639f1b443e2d56d27b1aec.jpg",
+          "description": "가이드북 소개 19"
+        },
+        {
+          "id": 7,
+          "title": "가이드북7",
+          "image": "https://i.pinimg.com/736x/bc/89/b7/bc89b745b556b34911329d5dc1828803.jpg",
+          "description": "가이드북 소개 7"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "가이드북12",
+      "description": "가이드북 소개 12",
+      "guidbookType": "소통",
+      "targetType": "참여자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 이상",
+      "hashtags": ["옷", "패션", "악세사리", "홍대"],
+      "images": [
+        "https://i.pinimg.com/736x/34/74/c8/3474c8c320aab919adeaf136bc93ccff.jpg",
+        "https://i.pinimg.com/736x/f6/44/8b/f6448bed7ca957de34cde289ef8a0482.jpg",
+        "https://i.pinimg.com/736x/5e/67/2e/5e672e60ea07814e20d31295631537b7.jpg",
+        "https://i.pinimg.com/736x/63/d7/0b/63d70b236a61f448b7155333c6e52894.jpg",
+        "https://i.pinimg.com/736x/ce/ef/18/ceef1845b75913e5b62130b01c12cb39.jpg",
+        "https://i.pinimg.com/736x/e0/a0/8d/e0a08d254a82ea233f067cc06266b490.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 16,
+          "title": "가이드북16",
+          "image": "https://i.pinimg.com/736x/db/75/85/db75854902293a403c63b6185ebe3cb9.jpg",
+          "description": "가이드북 소개 16"
+        },
+        {
+          "id": 6,
+          "title": "가이드북6",
+          "image": "https://i.pinimg.com/736x/01/11/cf/0111cf6c11f296ee6098d55e4ca44c50.jpg",
+          "description": "가이드북 소개 6"
+        },
+        {
+          "id": 5,
+          "title": "가이드북5",
+          "image": "https://i.pinimg.com/736x/50/e7/83/50e783abb2e7cd57856f13ab743a619f.jpg",
+          "description": "가이드북 소개 5"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "가이드북13",
+      "description": "가이드북 소개 13",
+      "guidbookType": "운영",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 진행 중",
+      "time": "30분 미만",
+      "hashtags": ["팝업스토어", "이모티콘", "그림", "망그라진 곰"],
+      "images": [
+        "https://i.pinimg.com/736x/45/ad/a0/45ada0ed1dbc731f205aac3648a458ce.jpg",
+        "https://i.pinimg.com/736x/cf/8c/2a/cf8c2a5e43e1cee4c4389fdf4c5a0258.jpg",
+        "https://i.pinimg.com/736x/72/1a/28/721a28616c7d5e353975c5b9ae141e66.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 9,
+          "title": "가이드북9",
+          "image": "https://i.pinimg.com/736x/1a/25/10/1a251092671cee86c277dedd927e3b03.jpg",
+          "description": "가이드북 소개 9"
+        },
+        {
+          "id": 10,
+          "title": "가이드북10",
+          "image": "https://i.pinimg.com/736x/b4/cd/56/b4cd5678e42bab7605f2e13d17b23e8d.jpg",
+          "description": "가이드북 소개 10"
+        },
+        {
+          "id": 2,
+          "title": "가이드북2",
+          "image": "https://i.pinimg.com/736x/2a/13/d4/2a13d45d3b14dc385c87fd329be5610d.jpg",
+          "description": "저는 귀여운 것들이 너무 좋습니다...!\n그래서 더욱 더 귀여움을 즐기실 수 있도록 귀여운 가이드북을 준비했어요!XD"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "가이드북14",
+      "description": "가이드북 소개 14",
+      "guidbookType": "참여 유도",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 진행 중",
+      "time": "1시간 이상",
+      "hashtags": ["에세이", "책", "소설"],
+      "images": [
+        "https://i.pinimg.com/736x/bb/a9/08/bba908d1b0f4e64d9243467ec6e5e72a.jpg",
+        "https://i.pinimg.com/736x/94/f8/1d/94f81d11fc384606f0d89c2708523543.jpg",
+        "https://i.pinimg.com/736x/53/07/f9/5307f9eef6f2dbd2466343bb36c54027.jpg",
+        "https://i.pinimg.com/736x/00/4c/41/004c416d13aa329d37c5951e5dd1d3d9.jpg",
+        "https://i.pinimg.com/736x/6f/31/ac/6f31ac28a2529739c3dcd002d01ad4b2.jpg",
+        "https://i.pinimg.com/736x/f2/60/e6/f260e63a8640862729ca87e869c5ab2b.jpg",
+        "https://i.pinimg.com/736x/dd/cd/22/ddcd221c00e8f2a86c8cdaf8439c7c78.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 1,
+          "title": "가이드북1",
+          "image": "https://i.pinimg.com/736x/51/68/81/51688108d30a1db262a46ccc3c96d80f.jpg",
+          "description": "가이드북 소개 1"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "가이드북15",
+      "description": "가이드북 소개 15",
+      "guidbookType": "운영 지원",
+      "targetType": "참여자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 내외",
+      "hashtags": ["추리", "추리 소설", "코난"],
+      "images": [
+        "https://i.pinimg.com/736x/e0/2b/c2/e02bc24fe0310cfa9d74a2b6dffdc47e.jpg",
+        "https://i.pinimg.com/736x/65/15/87/651587dcfebaefe478300dcb471646ec.jpg",
+        "https://i.pinimg.com/736x/11/7e/66/117e667f563a5350ef112abdb9d95bbf.jpg",
+        "https://i.pinimg.com/736x/e5/56/1b/e5561ba116b6967f99bcb835edc7bcfb.jpg",
+        "https://i.pinimg.com/736x/c9/31/b3/c931b359cb902533e2b91c09230a9049.jpg",
+        "https://i.pinimg.com/736x/74/bb/4a/74bb4a73ae9b57a09c07dc370f770648.jpg",
+        "https://i.pinimg.com/736x/5a/eb/e9/5aebe965a0f2ee3087895feae638e5f7.jpg",
+        "https://i.pinimg.com/736x/af/d1/b3/afd1b34dd16734cc259ecc44b57cd121.jpg",
+        "https://i.pinimg.com/736x/8b/fa/5e/8bfa5e0277d61327e12e21f4361f5cc0.jpg",
+        "https://i.pinimg.com/736x/68/ba/62/68ba62e3a3cddc39be4bb5514a56aa74.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 18,
+          "title": "가이드북18",
+          "image": "https://i.pinimg.com/736x/f7/fc/2c/f7fc2c86606f69a523486bb313b02e51.jpg",
+          "description": "가이드북 소개 18"
+        },
+        {
+          "id": 8,
+          "title": "가이드북8",
+          "image": "https://i.pinimg.com/736x/a0/d2/06/a0d2061e1d0d002f4a684e1da25041ca.jpg",
+          "description": "가이드북 소개 8"
+        },
+        {
+          "id": 10,
+          "title": "가이드북10",
+          "image": "https://i.pinimg.com/736x/b4/cd/56/b4cd5678e42bab7605f2e13d17b23e8d.jpg",
+          "description": "가이드북 소개 10"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "가이드북16",
+      "description": "가이드북 소개 16",
+      "guidbookType": "소통",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 마무리",
+      "time": "30분 미만",
+      "hashtags": ["여행", "시골", "히치하이킹"],
+      "images": [
+        "https://i.pinimg.com/736x/db/75/85/db75854902293a403c63b6185ebe3cb9.jpg",
+        "https://i.pinimg.com/736x/16/e9/f0/16e9f065bb0c69cfccb52baf267ac759.jpg",
+        "https://i.pinimg.com/736x/f0/62/11/f06211e1c768edc4fbb3895847c33b03.jpg",
+        "https://i.pinimg.com/736x/c2/00/1e/c2001e7256f2364d8a8bfa5a4644e05f.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 5,
+          "title": "가이드북5",
+          "image": "https://i.pinimg.com/736x/50/e7/83/50e783abb2e7cd57856f13ab743a619f.jpg",
+          "description": "가이드북 소개 5"
+        },
+        {
+          "id": 12,
+          "title": "가이드북12",
+          "image": "https://i.pinimg.com/736x/34/74/c8/3474c8c320aab919adeaf136bc93ccff.jpg",
+          "description": "가이드북 소개 12"
+        },
+        {
+          "id": 6,
+          "title": "가이드북19",
+          "image": "https://i.pinimg.com/736x/01/11/cf/0111cf6c11f296ee6098d55e4ca44c50.jpg",
+          "description": "가이드북 소개 6"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "가이드북17",
+      "description": "가이드북 소개 17",
+      "guidbookType": "운영",
+      "targetType": "참여자",
+      "level": "커뮤니티 진행 중",
+      "time": "30분 미만n",
+      "hashtags": ["제주도", "한 달 살기", "귤"],
+      "images": [
+        "https://i.pinimg.com/736x/c1/9b/92/c19b92a1e273c2934630617aac91679a.jpg",
+        "https://i.pinimg.com/736x/e4/89/59/e4895908bef13984722e2a0d49222934.jpg",
+        "https://i.pinimg.com/736x/65/cf/85/65cf8592d1afb38ba159de9af9250544.jpg",
+        "https://i.pinimg.com/736x/f3/ed/05/f3ed0552c4c7a65becabb7dd7c8ffbb2.jpg",
+        "https://i.pinimg.com/736x/a2/69/12/a269122d180d5259478355ff47a51dbb.jpg",
+        "https://i.pinimg.com/736x/16/a6/0c/16a60cac265ce8c53d6dceda582a6d41.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 13,
+          "title": "가이드북13",
+          "image": "https://i.pinimg.com/736x/45/ad/a0/45ada0ed1dbc731f205aac3648a458ce.jpg",
+          "description": "가이드북 소개 13"
+        },
+        {
+          "id": 2,
+          "title": "가이드북2",
+          "image": "https://i.pinimg.com/736x/2a/13/d4/2a13d45d3b14dc385c87fd329be5610d.jpg",
+          "description": "저는 귀여운 것들이 너무 좋습니다...!\n그래서 더욱 더 귀여움을 즐기실 수 있도록 귀여운 가이드북을 준비했어요!XD"
+        },
+        {
+          "id": 9,
+          "title": "가이드북9",
+          "image": "https://i.pinimg.com/736x/1a/25/10/1a251092671cee86c277dedd927e3b03.jpg",
+          "description": "가이드북 소개 9"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "가이드북18",
+      "description": "가이드북 소개 18",
+      "guidbookType": "운영 지원",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 진행 중",
+      "time": "1시간 이상",
+      "hashtags": ["카페", "핫스팟", "사진 찍기", "인스타 감성"],
+      "images": [
+        "https://i.pinimg.com/736x/f7/fc/2c/f7fc2c86606f69a523486bb313b02e51.jpg",
+        "https://i.pinimg.com/736x/10/f6/4c/10f64c39674f81fd1706223b1cc5a043.jpg",
+        "https://i.pinimg.com/736x/c7/e2/43/c7e243e320fb2ab2af2b868554912e7b.jpg",
+        "https://i.pinimg.com/736x/cc/9e/d9/cc9ed9111f2b6a55b0bf1371682569a0.jpg",
+        "https://i.pinimg.com/736x/a2/21/42/a22142d4f4df4ef631be50546a9ae9e7.jpg",
+        "https://i.pinimg.com/736x/ee/22/d7/ee22d7a94b396f894459d0981a014da3.jpg",
+        "https://i.pinimg.com/736x/f7/71/5d/f7715d781775097761406e9c2ce86f9e.jpg",
+        "https://i.pinimg.com/736x/1c/69/6b/1c696ba1610115b5af4d80583c0627e1.jpg",
+        "https://i.pinimg.com/736x/45/69/ea/4569ea22c046bf47affa05337cb30295.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 15,
+          "title": "가이드북15",
+          "image": "https://i.pinimg.com/736x/e0/2b/c2/e02bc24fe0310cfa9d74a2b6dffdc47e.jpg",
+          "description": "가이드북 소개 15"
+        },
+        {
+          "id": 10,
+          "title": "가이드북10",
+          "image": "https://i.pinimg.com/736x/b4/cd/56/b4cd5678e42bab7605f2e13d17b23e8d.jpg",
+          "description": "가이드북 소개 10"
+        },
+        {
+          "id": 8,
+          "title": "가이드북8",
+          "image": "https://i.pinimg.com/736x/a0/d2/06/a0d2061e1d0d002f4a684e1da25041ca.jpg",
+          "description": "가이드북 소개 8"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "가이드북19",
+      "description": "가이드북 소개 19",
+      "guidbookType": "프로그램 기획",
+      "targetType": "커뮤니티 기획자",
+      "level": "커뮤니티 시작 전",
+      "time": "1시간 내외",
+      "hashtags": ["술", "와인", "보드카"],
+      "images": [
+        "https://i.pinimg.com/736x/d3/5f/d9/d35fd929ba639f1b443e2d56d27b1aec.jpg",
+        "https://i.pinimg.com/474x/3b/1b/1a/3b1b1a535809bc1297cbee1d59a0c1c7.jpg",
+        "https://i.pinimg.com/736x/0f/76/d9/0f76d978f7efe11f19ab653129085ff8.jpg",
+        "https://i.pinimg.com/474x/3b/1b/1a/3b1b1a535809bc1297cbee1d59a0c1c7.jpg",
+        "https://i.pinimg.com/736x/d7/80/57/d78057d32b4bb340261d2cc9483533db.jpg",
+        "https://i.pinimg.com/736x/3d/75/7f/3d757fdc40efdad55f9a1124816077a4.jpg",
+        "https://i.pinimg.com/736x/9b/76/e1/9b76e1f0b2d108ebf7db411c3dce4fd3.jpg"
+      ],
+      "benefits": ["이익 1", "이익 2"],
+      "file": "https://bebeam.s3.ap-northeast-2.amazonaws.com/toolkit/pdf/%EB%84%88%EB%8A%94+%EC%96%B4%EB%96%A4+%ED%98%B8%EC%8A%A4%ED%8A%B8%EA%B0%80+%EB%90%98%EA%B3%A0%EC%8B%B6%EC%96%B4+_%ED%88%B4%ED%82%B7.pdf",
+      "recommendations": [
+        {
+          "id": 4,
+          "title": "가이드북4",
+          "image": "https://i.pinimg.com/736x/01/a2/2d/01a22d150711e1814d6f74509d024473.jpg",
+          "description": "가이드북 소개 4"
+        },
+        {
+          "id": 3,
+          "title": "가이드북3",
+          "image": "https://i.pinimg.com/736x/5c/9f/77/5c9f77e7e553acba6d21229f38b3dc70.jpg",
+          "description": "가이드북 소개 3"
+        },
+        {
+          "id": 19,
+          "title": "가이드북19",
+          "image": "https://i.pinimg.com/736x/d3/5f/d9/d35fd929ba639f1b443e2d56d27b1aec.jpg",
+          "description": "가이드북 소개 19"
+        }
+      ]
+    }
+  ]
+}

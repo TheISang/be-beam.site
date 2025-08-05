@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router';
 import type { SideBarSectionItems } from '@/types/components';
-import clsx from 'clsx';
+import { cn } from '@/lib/tailwind';
 
 export default function SidebarSubNavItem({
   to,
@@ -11,7 +11,7 @@ export default function SidebarSubNavItem({
     <NavLink
       to={to}
       className={({ isActive }) =>
-        clsx(
+        cn(
           'flex w-full items-center gap-2 px-5 py-3 text-b3',
           isActive
             ? 'bg-primary-light text-primary'

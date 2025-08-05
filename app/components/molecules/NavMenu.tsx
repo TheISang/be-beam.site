@@ -26,7 +26,7 @@ export default function NavMenu() {
             color: isActive
               ? 'var(--color-primary)'
               : isPending
-                ? 'blue'
+                ? 'var(--color-primary)'
                 : 'var(--color-gray-700)',
             fontSize: 'var(--text-t2)',
             fontWeight: 'var(--text-t2--font-weight)',

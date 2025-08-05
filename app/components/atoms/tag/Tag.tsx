@@ -12,6 +12,8 @@ const tagVariants = cva(
         primary: 'bg-primary-light text-primary',
         tertiary: 'bg-gray-200 text-black',
         blue: 'bg-info-light text-info',
+        brown: 'bg-[#f7dbb4] text-[#9f620a]',
+        pink: 'bg-[#ffd1e3] text-[#ff4891]',
         red: 'bg-error/10 text-error',
         green: 'bg-success/10 text-success',
       },

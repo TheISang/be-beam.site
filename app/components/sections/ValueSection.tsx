@@ -38,7 +38,7 @@ export default function ValueSection() {
           연경망을 통한 따뜻한 사회로
         </Text>
 
-        <GridGroup columns={3}>
+        <GridGroup columns={3} className="mt-12 max-w-[1145px]">
           {values.map((value, idx) => (
             <ValueCard key={idx} title={value.title} des={value.des} />
           ))}

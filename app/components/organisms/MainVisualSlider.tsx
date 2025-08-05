@@ -1,5 +1,13 @@
-export default function MainVisualSlider() {
+import type { Banner } from '@/types/entities';
+import Slider from './Slider';
+
+export default function MainVisualSlider({ banners }: { banners: Banner[] }) {
   return (
-    <div className="h-[400px] w-full max-w-[1480px] rounded-3xl bg-gray-200" />
+    <Slider
+      datas={banners}
+      isBtn={false}
+      slideWidth="max-w-[1480px]"
+      slideHeight="h-[400px]"
+    />
   );
 }

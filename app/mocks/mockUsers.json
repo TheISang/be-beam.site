@@ -1,0 +1,505 @@
+{
+  "users": [],
+  "participatedMeetings": [
+    {
+      "id": 70,
+      "title": "디저트 모임 70회차",
+      "recruitmentType": "정기모임",
+      "image": "https://i.pinimg.com/736x/99/c7/86/99c7863cd7490a2fa5de63e75d6a8277.jpg",
+      "meetingStartTime": "2024-07-10T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": false
+    },
+    {
+      "id": 100,
+      "title": "디저트 모임 100회차",
+      "recruitmentType": "정기모임",
+      "image": "https://i.pinimg.com/736x/09/43/08/094308b67bd37ddb83a7ea6111fc71b6.jpg",
+      "meetingStartTime": "2024-07-05T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "cancelled",
+      "isCash": true
+    },
+    {
+      "id": 39,
+      "title": "디저트 모임 39회차",
+      "recruitmentType": "정기모임",
+      "image": "https://i.pinimg.com/736x/8a/7f/a2/8a7fa2768f2aad3e2e1b2ae8bf19d617.jpg",
+      "meetingStartTime": "2024-08-01T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": false
+    },
+    {
+      "id": 29,
+      "title": "디저트 모임 29회차",
+      "recruitmentType": "소모임",
+      "image": "https://i.pinimg.com/736x/a4/8c/31/a48c31f9b6b444eb5166c5ad27a2bc3a.jpg",
+      "meetingStartTime": "2024-07-02T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "completed",
+      "isCash": true
+    },
+    {
+      "id": 51,
+      "title": "디저트 모임 51회차",
+      "recruitmentType": "소모임",
+      "image": "https://i.pinimg.com/736x/b3/af/1b/b3af1bc680f1d3b2eb0b21181c31785e.jpg",
+      "meetingStartTime": "2024-07-25T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "completed",
+      "isCash": true
+    },
+    {
+      "id": 48,
+      "title": "디저트 모임 48회차",
+      "recruitmentType": "소모임",
+      "image": "https://i.pinimg.com/736x/3a/50/e1/3a50e1281201d4857ac4c06987560c6d.jpg",
+      "meetingStartTime": "2024-06-23T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": false
+    },
+    {
+      "id": 20,
+      "title": "디저트 모임 20회차",
+      "recruitmentType": "소모임",
+      "image": "https://i.pinimg.com/736x/ca/c7/28/cac728336d120900c4e87b3fb015750e.jpg",
+      "meetingStartTime": "2024-07-16T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": false
+    },
+    {
+      "id": 45,
+      "title": "디저트 모임 45회차",
+      "recruitmentType": "정기모임",
+      "image": "https://i.pinimg.com/736x/3c/13/3e/3c133e7c873562521bc4cd8a63a7c81c.jpg",
+      "meetingStartTime": "2024-06-22T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": false
+    },
+    {
+      "id": 92,
+      "title": "디저트 모임 92회차",
+      "recruitmentType": "소모임",
+      "image": "https://i.pinimg.com/736x/5d/de/21/5dde216948004f1559471c2dee127405.jpg",
+      "meetingStartTime": "2024-06-17T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "completed",
+      "isCash": false
+    },
+    {
+      "id": 85,
+      "title": "디저트 모임 85회차",
+      "recruitmentType": "소모임",
+      "image": "https://i.pinimg.com/736x/12/6e/cc/126eccebabe77cf6aa2dff3a82798477.jpg",
+      "meetingStartTime": "2024-06-14T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "completed",
+      "isCash": false
+    },
+    {
+      "id": 73,
+      "title": "디저트 모임 73회차",
+      "recruitmentType": "정기모임",
+      "image": "https://i.pinimg.com/736x/65/d1/0c/65d10c922a47b249bcb7a246902bbcae.jpg",
+      "meetingStartTime": "2024-07-12T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "cancelled",
+      "isCash": true
+    },
+    {
+      "id": 68,
+      "title": "디저트 모임 68회차",
+      "recruitmentType": "소모임",
+      "image": "https://i.pinimg.com/736x/13/88/e9/1388e9cc4a66aac77af73ab8f6cfbf36.jpg",
+      "meetingStartTime": "2024-06-26T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": false
+    },
+    {
+      "id": 42,
+      "title": "디저트 모임 42회차",
+      "recruitmentType": "소모임",
+      "image": "https://i.pinimg.com/736x/a6/53/0c/a6530ca53b049c619cd695147afbccc8.jpg",
+      "meetingStartTime": "2024-07-11T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": false
+    },
+    {
+      "id": 93,
+      "title": "디저트 모임 93회차",
+      "recruitmentType": "정기모임",
+      "image": "https://i.pinimg.com/736x/22/74/6d/22746d2517a8684266910c1d5f995fed.jpg",
+      "meetingStartTime": "2024-07-08T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": true
+    },
+    {
+      "id": 24,
+      "title": "디저트 모임 24회차",
+      "recruitmentType": "소모임",
+      "image": "https://i.pinimg.com/736x/89/ca/86/89ca863e9dd17f4ed743ed32ec7410f3.jpg",
+      "meetingStartTime": "2024-07-02T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": true
+    },
+    {
+      "id": 81,
+      "title": "디저트 모임 81회차",
+      "recruitmentType": "정기모임",
+      "image": "https://i.pinimg.com/736x/ed/3f/51/ed3f51c0864975037409afe88b34ba01.jpg",
+      "meetingStartTime": "2024-07-08T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "participating",
+      "isCash": false
+    }
+  ],
+  "requestMeetings": [
+    {
+      "id": 1,
+      "name": "디저트 모임 1회차",
+      "recruitmentType": "소모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/61/a6/fd/61a6fde30fcb979e89865f75d8795995.jpg",
+      "meetingStartTime": "2024-06-15T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "liked": false,
+      "isCash": true
+    },
+    {
+      "id": 50,
+      "name": "디저트 모임 50회차",
+      "recruitmentType": "소모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/fc/06/6e/fc066ea7a7d6ef92b741b168db846fb7.jpg",
+      "meetingStartTime": "2024-06-13T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "liked": false,
+      "isCash": false
+    },
+    {
+      "id": 82,
+      "name": "디저트 모임 82회차",
+      "recruitmentType": "소모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/3e/b1/33/3eb1331f4f65dd5e21c78846d632a9a6.jpg",
+      "meetingStartTime": "2024-07-01T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "liked": false,
+      "isCash": true
+    },
+    {
+      "id": 3,
+      "name": "디저트 모임 3회차",
+      "recruitmentType": "소모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/0e/d1/b2/0ed1b21b5ddf88cda926039a64d24963.jpg",
+      "meetingStartTime": "2024-06-18T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "rejected",
+      "liked": false,
+      "isCash": false
+    },
+    {
+      "id": 16,
+      "name": "디저트 모임 16회차",
+      "recruitmentType": "정기모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/69/5b/c0/695bc0a576487ff1bd79bdbdbbf210f4.jpg",
+      "meetingStartTime": "2024-07-03T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "completed",
+      "liked": false,
+      "isCash": true
+    },
+    {
+      "id": 6,
+      "name": "디저트 모임 6회차",
+      "recruitmentType": "소모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/38/5b/41/385b4188e558f6e63aaf7abb041d8d59.jpg",
+      "meetingStartTime": "2024-07-11T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "isCash": false
+    },
+    {
+      "id": 35,
+      "name": "디저트 모임 35회차",
+      "recruitmentType": "소모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/86/6f/bd/866fbd6a342bebba1f9c08b7520a8d7e.jpg",
+      "meetingStartTime": "2024-07-11T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "isCash": true
+    },
+    {
+      "id": 75,
+      "name": "디저트 모임 75회차",
+      "recruitmentType": "소모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/fd/17/0d/fd170d7af723b08d2848b67f9ffc1b68.jpg",
+      "meetingStartTime": "2024-06-15T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "approved",
+      "liked": false,
+      "isCash": true
+    },
+    {
+      "id": 79,
+      "name": "디저트 모임 79회차",
+      "recruitmentType": "소모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/55/4f/93/554f937ec95202488884da85b1c2104a.jpg",
+      "meetingStartTime": "2024-06-23T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "rejected",
+      "liked": false,
+      "isCash": false
+    },
+    {
+      "id": 54,
+      "name": "디저트 모임 54회차",
+      "recruitmentType": "정기모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/18/86/65/188665f4105a297ac0f86854cae64783.jpg",
+      "meetingStartTime": "2024-06-13T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "liked": false,
+      "isCash": true
+    },
+    {
+      "id": 7,
+      "name": "디저트 모임 7회차",
+      "recruitmentType": "정기모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/77/74/bf/7774bfa7764f23bbc618b1c5d383d3bc.jpg",
+      "meetingStartTime": "2024-07-28T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "isCash": true
+    },
+    {
+      "id": 55,
+      "name": "디저트 모임 55회차",
+      "recruitmentType": "소모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/3c/1f/77/3c1f7744e78cf9a016f8ef4c0df713d0.jpg",
+      "meetingStartTime": "2024-06-11T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "liked": false,
+      "isCash": true
+    },
+    {
+      "id": 13,
+      "name": "디저트 모임 13회차",
+      "recruitmentType": "정기모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/14/12/33/141233f17826d4b56d6fa6513098e6c3.jpg",
+      "meetingStartTime": "2024-06-13T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "liked": false,
+      "isCash": false
+    },
+    {
+      "id": 16,
+      "name": "디저트 모임 16회차",
+      "recruitmentType": "정기모임",
+      "recruitmentStatus": "모집중",
+      "image": "https://i.pinimg.com/736x/69/5b/c0/695bc0a576487ff1bd79bdbdbbf210f4.jpg",
+      "meetingStartTime": "2024-07-03T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "pending",
+      "isCash": true
+    }
+  ],
+  "openingMeetings": [
+    {
+      "id": 13,
+      "title": "디저트 모임 13회차",
+      "recruitmentType": "정기모임",
+      "recruitmentTypeEng": "regular",
+      "image": "https://i.pinimg.com/736x/14/12/33/141233f17826d4b56d6fa6513098e6c3.jpg",
+      "meetingStartTime": "2024-06-13T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "모집중"
+    },
+    {
+      "id": 34,
+      "title": "디저트 모임 34회차",
+      "recruitmentType": "소모임",
+      "recruitmentTypeEng": "small",
+      "image": "https://i.pinimg.com/736x/96/63/1c/96631ca1b560816235a7be21f273bd33.jpg",
+      "meetingStartTime": "2024-10-15T15:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "모집종료"
+    },
+    {
+      "id": 64,
+      "title": "디저트 모임 64회차",
+      "recruitmentType": "소모임",
+      "recruitmentTypeEng": "small",
+      "image": "https://i.pinimg.com/736x/9c/40/9d/9c409d3389459330630f64b9b14935ac.jpg",
+      "meetingStartTime": "2024-07-21T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "모임중"
+    },
+    {
+      "id": 71,
+      "title": "디저트 모임 71회차",
+      "recruitmentType": "소모임",
+      "recruitmentTypeEng": "small",
+      "image": "https://i.pinimg.com/736x/5d/14/cd/5d14cd6b21ad91551c75cd09afe9e647.jpg",
+      "meetingStartTime": "2024-06-19T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "모집종료"
+    },
+    {
+      "id": 47,
+      "title": "디저트 모임 47회차",
+      "recruitmentType": "정기모임",
+      "recruitmentTypeEng": "regular",
+      "image": "https://i.pinimg.com/736x/f0/9c/cf/f09ccfdf7f0d4f94caad3f7851d1fd86.jpg",
+      "meetingStartTime": "2024-06-17T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "모집예정"
+    },
+    {
+      "id": 16,
+      "title": "디저트 모임 16회차",
+      "recruitmentType": "정기모임",
+      "recruitmentTypeEng": "regular",
+      "image": "https://i.pinimg.com/736x/69/5b/c0/695bc0a576487ff1bd79bdbdbbf210f4.jpg",
+      "meetingStartTime": "2024-07-03T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "모집중"
+    },
+    {
+      "id": 35,
+      "title": "디저트 모임 35회차",
+      "recruitmentType": "소모임",
+      "recruitmentTypeEng": "small",
+      "image": "https://i.pinimg.com/736x/86/6f/bd/866fbd6a342bebba1f9c08b7520a8d7e.jpg",
+      "meetingStartTime": "2024-07-11T14:00:00",
+      "address": "부산 부산진구 전포대로 124 카페",
+      "status": "모집중"
+    }
+  ],
+  "openingMeetingDetail": [
+    {
+      "id": 13,
+      "recruitingState": "모집중",
+      "recruitmentType": "정기모임",
+      "selectionType": "선착순",
+      "name": "디저트 모임 13회차",
+      "topic": "사진",
+      "minParticipants": 3,
+      "maxParticipants": 10,
+      "recruitingStartTime": "2024-06-06T14:00:00",
+      "recruitingEndTime": "2024-06-12T14:00:00",
+      "meetingMode": "온라인",
+      "paymentAmount": 0,
+      "introduction": "사진에 관심 있는 분들을 위한 소모임입니다.",
+      "schedules": [
+        {
+          "meetingDate": "2024-06-13",
+          "meetingStartTime": "T14:00:00",
+          "meetingEndTime": "T17:00:00",
+          "address": "부산 부산진구 전포대로 124 카페",
+          "addressDetail": "2층 모임공간",
+          "content": "디저트 모임 13회차 일정입니다."
+        }
+      ],
+      "hashtags": ["사진"],
+      "thumbnailImage": "https://i.pinimg.com/736x/14/12/33/141233f17826d4b56d6fa6513098e6c3.jpg",
+      "meetingImages": [
+        "https://i.pinimg.com/736x/14/12/33/141233f17826d4b56d6fa6513098e6c3.jpg",
+        "https://i.pinimg.com/736x/dc/fc/12/dcfc1205690133362aa8ed3d27e8095e.jpg"
+      ],
+      "info": "모임은 약 3시간 동안 진행됩니다.\n참가비는 현장에서 결제하거나 사전 결제가 필요할 수 있습니다.\n참가자 간의 소통을 위한 오픈채팅방이 제공됩니다.",
+      "hostId": 1013,
+      "hostName": "호스트13",
+      "hostImage": "https://i.pinimg.com/736x/39/b5/3a/39b53a12b6cd78e145780ac57af6f83e.jpg",
+      "hostDescription": "사진 주제로 활동하는 호스트입니다.",
+      "likesCount": 41,
+      "applicantCount": 1,
+      "applicants": [
+        {
+          "id": 1,
+          "name": "허남준 최고",
+          "image": "https://i.pinimg.com/736x/1d/fd/8c/1dfd8cb35fac2b6511155a09259923a8.jpg",
+          "status": "수락"
+        }
+      ],
+      "attendanceStatus": [
+        {
+          "scheduleId": 1,
+          "round": 1,
+          "checkedCount": 2,
+          "totalCount": 3,
+          "scheduleParticipants": [
+            {
+              "id": 1,
+              "name": "닉네임",
+              "image": "https://bebeam.s3.ap-northeast-2.amazonaws.com/meeting/c0ebd259-6fcc-4bc6-ab84-783a4e9ee0c6.png",
+              "isChecked": "참석"
+            },
+            {
+              "id": 2,
+              "name": "닉네임2",
+              "image": "https://bebeam.s3.ap-northeast-2.amazonaws.com/meeting/c0ebd259-6fcc-4bc6-ab84-783a4e9ee0c6.png",
+              "isChecked": "참석"
+            },
+            {
+              "id": 3,
+              "name": "닉네임2",
+              "image": "https://bebeam.s3.ap-northeast-2.amazonaws.com/meeting/c0ebd259-6fcc-4bc6-ab84-783a4e9ee0c6.png",
+              "isChecked": "불참"
+            }
+          ]
+        },
+        {
+          "scheduleId": 2,
+          "round": 2,
+          "checkedCount": 2,
+          "totalCount": 3,
+          "scheduleParticipants": [
+            {
+              "id": 1,
+              "name": "닉네임",
+              "image": "https://bebeam.s3.ap-northeast-2.amazonaws.com/meeting/c0ebd259-6fcc-4bc6-ab84-783a4e9ee0c6.png",
+              "isChecked": "참석"
+            },
+            {
+              "id": 2,
+              "name": "닉네임2",
+              "image": "https://bebeam.s3.ap-northeast-2.amazonaws.com/meeting/c0ebd259-6fcc-4bc6-ab84-783a4e9ee0c6.png",
+              "isChecked": "참석"
+            },
+            {
+              "id": 3,
+              "name": "닉네임2",
+              "image": "https://bebeam.s3.ap-northeast-2.amazonaws.com/meeting/c0ebd259-6fcc-4bc6-ab84-783a4e9ee0c6.png",
+              "isChecked": "불참"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

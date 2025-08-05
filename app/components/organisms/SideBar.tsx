@@ -33,12 +33,17 @@ export default function SideBar({ user }: { user: UserType }) {
       onClick: () => setIsMeetingPage(false),
     },
     {
-      to: '/mypage/wishList',
-      title: '💖 찜 리스트',
+      to: '/mypage/likes',
+      title: '💖 좋아요 리스트',
       onClick: () => setIsMeetingPage(false),
     },
     {
-      to: '/mypage/editProfile',
+      to: '/mypage/following',
+      title: '⭐ 팔로잉 리스트',
+      onClick: () => setIsMeetingPage(false),
+    },
+    {
+      to: '/mypage/info',
       title: '🙆 개인정보 수정',
       onClick: () => setIsMeetingPage(false),
     },
@@ -50,7 +55,7 @@ export default function SideBar({ user }: { user: UserType }) {
   ];
 
   return (
-    <aside className="w-[230px]">
+    <aside className="sticky top-[100px] w-[230px]">
       <UserProfileCard user={user} />
 
       <div className="mt-6">

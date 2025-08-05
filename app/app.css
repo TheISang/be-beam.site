@@ -93,3 +93,22 @@ body {
     color-scheme: dark;
   }
 }
+
+.specific-dot-list {
+  list-style: none !important;
+  padding-left: 0;
+}
+
+.specific-dot-list li {
+  position: relative;
+  padding-left: 1em;
+}
+
+.specific-dot-list li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: currentColor;
+  font-weight: bold;
+  top: 0;
+}

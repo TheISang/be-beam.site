@@ -28,6 +28,7 @@ export const colorStyles = {
   'gray-300': 'text-gray-300',
   'gray-200': 'text-gray-200',
   'gray-100': 'text-gray-100',
+  purple: 'text-[#3940E4]',
   brown: 'text-[#381F1F]',
   primary: 'text-[var(--color-primary)]',
 };
