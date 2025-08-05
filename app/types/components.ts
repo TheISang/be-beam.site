@@ -22,12 +22,10 @@ export interface TextProps {
     | 'gray-300'
     | 'gray-200'
     | 'gray-100'
-    | 'purple'
     | 'brown'
     | 'primary';
-  variant?: TypographyVariant;
+  variant: TypographyVariant;
   className?: string;
-  onClick?: () => void;
 }
 
 export type TypographyVariant =
@@ -51,10 +49,16 @@ export interface LogoProps {
   className?: string;
 }
 
+export interface SearchInputProps
+  extends React.InputHTMLAttributes<HTMLInputElement> {
+  className?: string;
+}
+
 export interface GridGroupProps {
   children: React.ReactNode;
-  columns?: 1 | 2 | 3 | 4 | 5 | 6;
+  columns: 1 | 2 | 3 | 4 | 5 | 6;
   gap?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 11 | 12;
+  maxWidth?: string;
   className?: string;
 }
 
@@ -62,139 +66,4 @@ export interface SideBarSectionItems {
   to: string;
   title: string;
   onClick: () => void;
-}
-
-export interface FiltersType {
-  label: string;
-  options: string[];
-  values: string[];
-}
-
-export interface RecommendationsGuideBookType {
-  id: number;
-  title: string;
-  image: string;
-  description: string;
-}
-
-export interface FilterOption {
-  text: string;
-  value: string;
-}
-
-export interface GuideBookType {
-  id: number;
-  title: string;
-  guidbookType: string;
-  targetType: string;
-  hashtags: string[];
-  level: string;
-  time: string;
-  description: string;
-  benefits: string[];
-  images: string[];
-  file: string;
-  recommendations: RecommendationsGuideBookType[];
-}
-
-export interface GetCreateMeetingDetailDataType {
-  selectionType: string;
-  meetingMode: string;
-  minParticipants: number;
-  maxParticipants: number;
-  recruitingStartTime: string;
-  recruitingEndTime: string;
-  schedules: {
-    content: string;
-    address: string;
-    addressDetail: string;
-    meetingDate: string;
-    meetingStartTime: string;
-    meetingEndTime: string;
-  }[];
-  paymentAmount: number;
-  info: string;
-}
-
-export interface CreatedMeetingDetailStateType {
-  intro: {
-    thumbnailImagePreview: string;
-    thumbnailImage: null | File;
-    name: string;
-    introduction: string;
-    topic: number | null;
-    hashtags: string[];
-    totalImages: string[];
-    addImages: File[] | [];
-    existingImages: string[];
-    hostDescription: string;
-  };
-  detail: {
-    selectionType: string;
-    mode: string;
-    minParticipants: number;
-    maxParticipants: number;
-    schedules: {
-      content: string | number;
-      address: string;
-      addressDetail: string | undefined;
-      meetingDate: string;
-      meetingStartTime: string;
-      meetingEndTime: string;
-    }[];
-    recruitingStartTime: string;
-    recruitingEndTime: string;
-    paymentAmount: number;
-    info: string;
-  };
-}
-
-export interface CreateMeetingType {
-  thumbnailImage: File | null;
-  thumbnailImagePreview: string | '';
-  name: string;
-  recruitmentType: '정기모임' | '소모임' | undefined;
-  selectionType: '선발형' | '선착순' | null;
-  meetingMode: '온라인' | '오프라인' | '혼합' | null;
-  topicId: number | null;
-  hashtags: string[];
-  isGuideBookRefer: 'false' | 'true';
-  guidbookReferenceId: null | number | undefined;
-  introduction: string;
-  images: [] | File[];
-  imagesPreview: [] | string[];
-  minParticipants: number;
-  maxParticipants: number;
-  hostDescription: string;
-  recruitingStartTime: Date | null;
-  recruitingEndTime: Date | null;
-  paymentAmount: number;
-  info: string;
-  schedules: {
-    meetingDate: string;
-    meetingStartTime: string;
-    meetingEndTime: string;
-    address: string;
-    addressDetail: string;
-  }[];
-}
-
-export interface EditCreateMeetingIntroType {
-  thumbnailImage?: File;
-  name: string;
-  topicId: number | null;
-  hashtags: { value: string }[];
-  introduction: string;
-  images: [] | { value: File }[] | null;
-  hostDescription: string;
-}
-
-export interface EditMeetingDetailType {
-  selectionType: '선발형' | '선착순';
-  meetingMode: '온라인' | '오프라인' | '혼합';
-  minParticipants: string | number;
-  maxParticipants: string | number;
-  paymentAmount: string | number;
-  recruitingEndTime: string;
-  info: string;
 }

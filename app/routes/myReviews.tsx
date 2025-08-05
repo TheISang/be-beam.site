@@ -1,9 +1,3 @@
-import { redirect } from 'react-router';
-
-export function loader() {
-  return redirect('/mypage/reviews/written');
-}
-
-export default function myReviews() {
-  return <div>myReviews</div>;
+export default function MyReviews() {
+  return <div className="flex-1">나의 리뷰</div>;
 }
