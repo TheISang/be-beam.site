@@ -4,7 +4,7 @@ export const Toaster = () => {
   return (
     <ToasterComponent
       toastOptions={{
-        duration: 3000,
+        duration: 10000,
         success: {
           icon: (
             <svg

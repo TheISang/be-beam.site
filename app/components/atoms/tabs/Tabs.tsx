@@ -26,7 +26,7 @@ function TabsList({
     <TabsPrimitive.List
       data-slot="tabs-list"
       className={cn(
-        'relative inline-flex h-14 w-fit items-start gap-12 before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:bg-gray-300',
+        'relative inline-flex h-14 w-fit items-center justify-center gap-12 bg-white before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:bg-gray-300',
         className,
       )}
       {...props}
@@ -43,7 +43,7 @@ function TabsTrigger({
       data-slot="tabs-trigger"
       className={cn(
         focusVisibleRing(),
-        'after:content-[] relative inline-flex h-full cursor-pointer items-center justify-center gap-1.5 border-gray-300 text-t2 whitespace-nowrap text-black transition-all duration-700 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-transparent disabled:cursor-default disabled:border-gray-300 disabled:text-gray-500 data-[state=active]:after:bg-black',
+        'after:content-[] relative inline-flex h-full flex-1 items-center justify-center gap-1.5 border-gray-300 text-t2 whitespace-nowrap text-black after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-transparent data-[state=active]:after:bg-black',
         className,
       )}
       {...props}

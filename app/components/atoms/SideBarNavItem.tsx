@@ -1,4 +1,4 @@
-import { cn } from '@/lib/tailwind';
+import clsx from 'clsx';
 import { NavLink } from 'react-router';
 
 export default function SideBarNavItem({
@@ -14,7 +14,7 @@ export default function SideBarNavItem({
     <NavLink
       to={to}
       className={({ isActive }) =>
-        cn(
+        clsx(
           'flex items-center gap-2 px-5 py-5 text-t3 hover:text-primary',
           isActive ? 'text-primary' : '',
         )
