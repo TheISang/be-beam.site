@@ -3,7 +3,7 @@ import {
   TabsList,
   TabsTrigger,
   TabsContent,
-} from '@/components/atoms/tabs/Tabs';
+} from '@/shared/components/ui/Tabs';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

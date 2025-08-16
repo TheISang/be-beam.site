@@ -1,8 +1,5 @@
-import {
-  TextField,
-  ClearButton,
-} from '@/components/atoms/text-field/TextField';
-import SearchIcon from '@/components/atoms/icons/SearchIcon';
+import { TextField, ClearButton } from '@/shared/components/ui/TextField';
+import SearchIcon from '@/shared/components/icons/SearchIcon';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

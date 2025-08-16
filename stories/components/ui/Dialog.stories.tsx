@@ -6,8 +6,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@/components/atoms/dialog/Dialog';
-import { Button } from '@/components/atoms/button/Button';
+} from '@/shared/components/ui/Dialog';
+import { Button } from '@/shared/components/ui/Button';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

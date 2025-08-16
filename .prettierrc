@@ -14,5 +14,5 @@
   "trailingComma": "all",
   "useTabs": false,
   "plugins": ["prettier-plugin-tailwindcss"],
-  "tailwindStylesheet": "./app/app.css"
+  "tailwindStylesheet": "./app/styles/app.css"
 }

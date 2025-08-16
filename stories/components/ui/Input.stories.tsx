@@ -1,4 +1,4 @@
-import { Input } from '@/components/atoms/input/Input';
+import { Input } from '@/shared/components/ui/Input';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

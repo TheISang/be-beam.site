@@ -1,4 +1,4 @@
-import { TabNav, TabNavLink } from '@/components/atoms/tab-nav/TabNav';
+import { TabNav, TabNavLink } from '@/shared/components/ui/TabNav';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { MemoryRouter } from 'react-router';
 

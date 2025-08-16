@@ -1,8 +1,5 @@
-import {
-  RadioGroup,
-  RadioGroupItem,
-} from '@/components/atoms/radio-group/RadioGroup';
-import { Label } from '@/components/atoms/label/Label';
+import { RadioGroup, RadioGroupItem } from '@/shared/components/ui/RadioGroup';
+import { Label } from '@/shared/components/ui/Label';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

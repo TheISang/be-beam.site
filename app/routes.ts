@@ -7,48 +7,48 @@ import {
 } from '@react-router/dev/routes';
 
 export default [
-  index('routes/home.tsx'),
-  route('/meetings', 'routes/meetings.tsx'),
-  route('/meeting/:meetingId', 'routes/meetingDetail.tsx'),
-  route('/reviews', 'routes/reviews.tsx'),
-  route('/guideBooks', 'routes/guideBooks.tsx'),
-  route('/guideBook/:guideBookId', 'routes/guideBookDetail.tsx'),
-  route('/host/:hostId', 'routes/hostDetail.tsx'),
-  route('/login', 'routes/login.tsx'),
-  route('/login/callback', 'routes/loginCallback.tsx'),
-  route('/search', 'routes/search.tsx'),
-  route('/createMeeting', 'routes/createMeeting.tsx'),
-  layout('layouts/myPage.tsx', [
+  index('routes/home/index.tsx'),
+  route('/meetings', 'routes/meetings/index.tsx'),
+  route('/meeting/:meetingId', 'routes/meetingDetail/index.tsx'),
+  route('/reviews', 'routes/reviews/index.tsx'),
+  route('/guideBooks', 'routes/guideBooks/index.tsx'),
+  route('/guideBook/:guideBookId', 'routes/guideBookDetail/index.tsx'),
+  route('/host/:hostId', 'routes/hostDetail/index.tsx'),
+  route('/login', 'routes/login/index.tsx'),
+  route('/login/callback', 'routes/loginCallback/index.tsx'),
+  route('/search', 'routes/search/index.tsx'),
+  route('/createMeeting', 'routes/createMeeting/index.tsx'),
+  layout('shared/components/layout/myPage.tsx', [
     ...prefix('/myPage', [
-      route('/participated', 'routes/participatedMeeting.tsx'),
-      route('/requested', 'routes/requestedMeeting.tsx'),
-      route('/created', 'routes/createdMeeting.tsx'),
+      route('/participated', 'routes/participatedMeeting/index.tsx'),
+      route('/requested', 'routes/requestedMeeting/index.tsx'),
+      route('/created', 'routes/createdMeeting/index.tsx'),
       ...prefix('/reviews', [
-        index('routes/myReviews.tsx'),
-        layout('layouts/myReview.tsx', [
-          route('/written', 'routes/writtenReviews.tsx'),
-          route('/reviewable', 'routes/reviewableReviews.tsx'),
+        index('routes/myReviews/index.tsx'),
+        layout('shared/components/layout/myReview.tsx', [
+          route('/written', 'routes/writtenReviews/index.tsx'),
+          route('/reviewable', 'routes/reviewableReviews/index.tsx'),
         ]),
       ]),
-      layout('layouts/myLikes.tsx', [
+      layout('shared/components/layout/myLikes.tsx', [
         ...prefix('/likes', [
-          index('routes/myLikes.tsx'),
-          route('/regular', 'routes/regularMeetingLikes.tsx'),
-          route('/small', 'routes/smallMeetingLikes.tsx'),
-          route('/review', 'routes/reviewLikes.tsx'),
+          index('routes/myLikes/index.tsx'),
+          route('/regular', 'routes/regularMeetingLikes/index.tsx'),
+          route('/small', 'routes/smallMeetingLikes/index.tsx'),
+          route('/review', 'routes/reviewLikes/index.tsx'),
         ]),
       ]),
-      route('/following', 'routes/myFollowing.tsx'),
-      route('/profile', 'routes/myProfile.tsx'),
-      route('/info', 'routes/myInformation.tsx'),
-      route('/notifications', 'routes/myNotifications.tsx'),
+      route('/following', 'routes/myFollowing/index.tsx'),
+      route('/profile', 'routes/myProfile/index.tsx'),
+      route('/info', 'routes/myInformation/index.tsx'),
+      route('/notifications', 'routes/myNotifications/index.tsx'),
     ]),
   ]),
-  layout('layouts/createdMeetingDetail.tsx', [
+  layout('shared/components/layout/createdMeetingDetail.tsx', [
     ...prefix('/myPage/created/:meetingId', [
-      route('/intro', 'routes/createdMeetingDetailIntro.tsx'),
-      route('/detail', 'routes/createdMeetingDetailDetail.tsx'),
-      route('/manage', 'routes/createdMeetingDetailManage.tsx'),
+      route('/intro', 'routes/createdMeetingDetailIntro/index.tsx'),
+      route('/detail', 'routes/createdMeetingDetailDetail/index.tsx'),
+      route('/manage', 'routes/createdMeetingDetailManage/index.tsx'),
     ]),
   ]),
 ] satisfies RouteConfig;

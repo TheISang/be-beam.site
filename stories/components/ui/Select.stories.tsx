@@ -7,7 +7,7 @@ import {
   SelectGroup,
   SelectLabel,
   SelectSeparator,
-} from '@/components/atoms/select/Select';
+} from '@/shared/components/ui/Select';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

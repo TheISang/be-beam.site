@@ -9,8 +9,8 @@ import {
   DropdownMenuRadioGroup,
   DropdownMenuRadioItem,
   DropdownMenuGroup,
-} from '@/components/atoms/dropdown-menu/DropdownMenu';
-import { Button } from '@/components/atoms/button/Button';
+} from '@/shared/components/ui/DropdownMenu';
+import { Button } from '@/shared/components/ui/Button';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

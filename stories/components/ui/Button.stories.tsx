@@ -1,4 +1,4 @@
-import { Button } from '@/components/atoms/button/Button';
+import { Button } from '@/shared/components/ui/Button';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 import { fn } from 'storybook/test';

@@ -1,4 +1,4 @@
-import Text from '@/components/atoms/text/Text';
+import Text from '@/shared/components/ui/Text';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

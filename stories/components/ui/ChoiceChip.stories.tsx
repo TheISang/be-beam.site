@@ -1,8 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-import {
-  ChoiceChip,
-  ChoiceChipItem,
-} from '@/components/atoms/choice-chip/ChoiceChip';
+import { ChoiceChip, ChoiceChipItem } from '@/shared/components/ui/ChoiceChip';
 
 const meta = {
   title: 'Components/UI/ChoiceChip',

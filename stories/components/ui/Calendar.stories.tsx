@@ -1,4 +1,4 @@
-import { Calendar } from '@/components/atoms/calendar/Calendar';
+import { Calendar } from '@/shared/components/ui/Calendar';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { useState } from 'react';
 

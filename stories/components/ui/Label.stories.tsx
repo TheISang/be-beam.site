@@ -1,4 +1,4 @@
-import { Label } from '@/components/atoms/label/Label';
+import { Label } from '@/shared/components/ui/Label';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

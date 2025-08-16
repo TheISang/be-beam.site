@@ -8,8 +8,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@/components/atoms/alert-dialog/AlertDialog';
-import { Button } from '@/components/atoms/button/Button';
+} from '@/shared/components/ui/AlertDialog';
+import { Button } from '@/shared/components/ui/Button';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

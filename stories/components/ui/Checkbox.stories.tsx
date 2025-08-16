@@ -1,5 +1,5 @@
-import { Checkbox } from '@/components/atoms/checkbox/Checkbox';
-import { Label } from '@/components/atoms/label/Label';
+import { Checkbox } from '@/shared/components/ui/Checkbox';
+import { Label } from '@/shared/components/ui/Label';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

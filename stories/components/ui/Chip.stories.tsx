@@ -1,4 +1,4 @@
-import { Chip } from '@/components/atoms/chip/Chip';
+import { Chip } from '@/shared/components/ui/Chip';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {
