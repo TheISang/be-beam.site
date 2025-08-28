@@ -19,11 +19,7 @@ export default function NavbarUserSection({
   const logoutMutation = useLogoutMutation();
 
   const handleLogout = () => {
-    logoutMutation.mutate(undefined, {
-      onSuccess: () => {
-        navigate('/login');
-      },
-    });
+    logoutMutation.mutate(undefined);
   };
 
   return (
