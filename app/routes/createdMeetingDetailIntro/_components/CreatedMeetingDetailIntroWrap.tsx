@@ -246,7 +246,7 @@ export default function CreatedMeetingDetailIntroWrap({
                 <Button
                   type="button"
                   key={topic.id}
-                  variant="tertiary"
+                  variant="outline"
                   className={cn(
                     'mt-3 mr-2 h-9 rounded-md border-gray-300 px-4 text-b1',
                     field.value === topic.id

@@ -166,7 +166,7 @@ export default function MeetingDetailCard({ meeting }: { meeting: Meeting }) {
 
       <div className="mt-8 flex w-full items-center gap-4">
         <Button
-          variant="tertiary"
+          variant="outline"
           size="lg"
           className={cn(
             meeting?.liked

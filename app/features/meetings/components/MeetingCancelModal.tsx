@@ -158,8 +158,8 @@ export default function MeetingCancelModal() {
                     : '모임 취소 신청을 취소하였습니다.',
                 );
               }}
-              variant="tertiary"
-              size="sm"
+              variant="outline"
+              size="md"
               className="border-gray-500 text-gray-600"
             >
               취소

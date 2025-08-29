@@ -71,7 +71,7 @@ export default function HostDetailWrap({ id }: { id: number }) {
             </div>
 
             <Button
-              variant="tertiary"
+              variant="outline"
               className={cn(
                 host.hostName === user?.nickname && 'hidden',
                 'border-none text-t3',

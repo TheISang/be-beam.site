@@ -94,7 +94,7 @@ export const AddressInput: React.FC<AddressInputProps> = ({
           type="button"
           onClick={handleAddressSearch}
           disabled={disabled}
-          variant="tertiary"
+          variant="outline"
           className="h-auto min-w-auto border-none p-0 text-b1 text-primary"
         >
           수정

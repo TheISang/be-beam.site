@@ -105,7 +105,7 @@ export default function Meetings({ loaderData }: Route.ComponentProps) {
         {user && (
           <Button
             className="fixed bottom-10 left-[50%] ml-[-75px] rounded-full text-t3"
-            size="sm"
+            size="md"
             onClick={() => navigate('/createMeeting')}
           >
             <img src="/images/icons/w_plus.svg" alt="plus_icon" />

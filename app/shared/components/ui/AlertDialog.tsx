@@ -140,7 +140,7 @@ function AlertDialogCancel({
     <AlertDialogPrimitive.Cancel
       className={cn(
         focusVisibleRing(),
-        buttonVariants({ variant: 'tertiary', size: 'sm' }),
+        buttonVariants({ variant: 'outline', size: 'md' }),
         'w-full flex-1 p-0',
         className,
       )}

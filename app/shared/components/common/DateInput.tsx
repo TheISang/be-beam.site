@@ -47,7 +47,7 @@ export const DateInput: React.FC<DateInputProps> = ({
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
           <Button
-            variant="tertiary"
+            variant="outline"
             id={id}
             className={cn(
               'h-12 w-full justify-between px-3 py-2 text-left font-normal',

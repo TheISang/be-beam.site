@@ -178,8 +178,8 @@ export default function DeclareModal() {
                   `${modalProps.type === 'meeting' ? '해당 모임' : modalProps.type === 'review' ? '해당 모임 후기' : '해당 호스트'} 신고를 취소하였습니다.`,
                 );
               }}
-              variant="tertiary"
-              size="sm"
+              variant="outline"
+              size="md"
               className="w-30 border-gray-500 text-gray-600"
             >
               취소

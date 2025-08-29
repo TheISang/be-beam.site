@@ -139,7 +139,7 @@ export default function ApplyMeetingModal() {
           <DialogFooter className="mt-6 grid grid-cols-2 gap-2">
             <Button
               type="button"
-              variant="tertiary"
+              variant="outline"
               className="border-gray-500"
               onClick={() => {
                 reset();

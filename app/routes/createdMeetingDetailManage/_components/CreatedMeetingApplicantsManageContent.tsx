@@ -90,7 +90,7 @@ export default function CreatedMeetingApplicantsManageContent({
                         });
                       }}
                       className="h-auto border-gray-500 px-5 py-2 text-gray-600"
-                      variant="tertiary"
+                      variant="outline"
                     >
                       거절
                     </Button>
@@ -103,7 +103,7 @@ export default function CreatedMeetingApplicantsManageContent({
                         });
                       }}
                       className="h-auto border-gray-500 px-5 py-2 text-gray-600"
-                      variant="tertiary"
+                      variant="outline"
                     >
                       수락
                     </Button>

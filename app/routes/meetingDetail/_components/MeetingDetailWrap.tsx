@@ -43,7 +43,7 @@ export default function MeetingDetailWrap({ id }: { id: number }) {
             소중한 경험을 함께 나눠요🥰
           </Text>
           <Button
-            size="sm"
+            size="md"
             className="w-full"
             onClick={() =>
               open('EDIT_MEETING_REVIEW_MODAL', {

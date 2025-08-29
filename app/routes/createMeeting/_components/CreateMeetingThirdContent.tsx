@@ -58,7 +58,7 @@ export default function CreateMeetingThirdContent({
                   <Button
                     type="button"
                     key={idx}
-                    variant="tertiary"
+                    variant="outline"
                     className={cn(
                       'mt-3 mr-2 h-9 rounded-md border-gray-300 px-4 text-b1',
                       field.value === selectionType
@@ -99,7 +99,7 @@ export default function CreateMeetingThirdContent({
                   <Button
                     type="button"
                     key={idx}
-                    variant="tertiary"
+                    variant="outline"
                     className={cn(
                       'mt-3 mr-2 h-9 rounded-md border-gray-300 px-4 text-b1',
                       field.value === meetingMode
@@ -262,7 +262,7 @@ export default function CreateMeetingThirdContent({
       <div className="mt-20 flex w-full items-center gap-3">
         <Button
           type="button"
-          variant="tertiary"
+          variant="outline"
           onClick={() => setTab(tab - 1)}
           className="w-[50%]"
         >

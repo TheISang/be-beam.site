@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import type { Banner } from '@/shared/types/entities';
 import { cn } from '@/styles/tailwind';
 import Text from '../ui/Text';
-import { Button } from '../ui/Button';
+import { IconButton } from '@/shared/components/ui/IconButton';
 
 export default function Slider({
   images,
@@ -99,9 +99,8 @@ export default function Slider({
           >{`${currentIndex + 1} / ${images?.length}`}</Text>
         )}
 
-        <Button
-          variant="tertiary"
-          size="icon"
+        <IconButton
+          variant="outline"
           className={cn(
             'absolute top-1/2 left-5 z-10 h-10 w-10 -translate-y-1/2 rounded-full border-none bg-white shadow-md',
             isBtn && images?.length === 1
@@ -113,11 +112,10 @@ export default function Slider({
           onClick={() => swiperRef.current?.slidePrev()}
         >
           <img src="/images/icons/prev.svg" alt="prev_icon" />
-        </Button>
+        </IconButton>
 
-        <Button
-          variant="tertiary"
-          size="icon"
+        <IconButton
+          variant="outline"
           className={cn(
             'absolute top-1/2 right-5 z-10 h-10 w-10 -translate-y-1/2 rounded-full border-none shadow-md',
             isBtn && images?.length === 1
@@ -129,7 +127,7 @@ export default function Slider({
           onClick={() => swiperRef.current?.slideNext()}
         >
           <img src="/images/icons/next.svg" alt="next_icon" />
-        </Button>
+        </IconButton>
       </Swiper>
     </div>
   );

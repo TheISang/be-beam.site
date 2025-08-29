@@ -52,7 +52,7 @@ export default function MeetingReviewEditForm({
             />
 
             <Button
-              variant="tertiary"
+              variant="outline"
               className="absolute top-2 right-2 h-6 min-w-6 rounded-full border-none bg-gray-300 p-0 shadow-md"
               onClick={() => {
                 setEditData((prev) => ({

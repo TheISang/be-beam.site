@@ -18,7 +18,7 @@ export default function MoreDropdownMenu({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          variant="tertiary"
+          variant="outline"
           className={`min-w-auto border-none ${btnPosition}`}
         >
           <img src="/images/icons/3dot.svg" alt="more_icon" />

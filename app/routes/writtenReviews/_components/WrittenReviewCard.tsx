@@ -122,7 +122,7 @@ export default function WrittenReviewCard({ review }: WrittenReviewCardProps) {
         <div className="mt-5 flex items-center gap-2.5">
           <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogTrigger asChild>
-              <Button variant="tertiary" className="flex-1">
+              <Button variant="outline" className="flex-1">
                 수정
               </Button>
             </DialogTrigger>
@@ -150,7 +150,7 @@ export default function WrittenReviewCard({ review }: WrittenReviewCardProps) {
           </Dialog>
           <AlertDialog>
             <AlertDialogTrigger asChild>
-              <Button variant="tertiary" className="flex-1">
+              <Button variant="outline" className="flex-1">
                 삭제
               </Button>
             </AlertDialogTrigger>

@@ -67,7 +67,7 @@ export default function CreatedMeetingDetailContent({
                 <Button
                   key={idx}
                   type="button"
-                  variant="tertiary"
+                  variant="outline"
                   className={cn(
                     'mr-2 h-9 min-w-auto rounded-lg border-1 transition-all duration-700 hover:border-primary hover:bg-primary-light hover:text-primary',
                     field.value === selectionType
@@ -105,7 +105,7 @@ export default function CreatedMeetingDetailContent({
                 <Button
                   key={idx}
                   type="button"
-                  variant="tertiary"
+                  variant="outline"
                   className={cn(
                     'mr-2 h-9 min-w-auto rounded-lg border-1 transition-all duration-700 hover:border-primary hover:bg-primary-light hover:text-primary',
                     field.value === mode

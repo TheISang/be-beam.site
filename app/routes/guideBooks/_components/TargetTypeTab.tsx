@@ -29,7 +29,7 @@ export default function GuideBooksFilterControls({
       </TabsList>
 
       <Button
-        variant="tertiary"
+        variant="outline"
         className="h-auto min-w-auto border-gray-300 text-b1 text-black"
         onClick={() =>
           open('GUIDEBOOK_FILTER_DIALOG', {

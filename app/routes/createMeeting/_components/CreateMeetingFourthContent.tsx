@@ -151,7 +151,7 @@ export default function CreateMeetingFourthContent({
 
           <Button
             type="button"
-            size="sm"
+            size="md"
             className={cn(
               form.recruitmentType === '소모임' && 'hidden',
               'px-5',
@@ -368,7 +368,7 @@ export default function CreateMeetingFourthContent({
       <div className="mt-20 flex w-full items-center gap-3">
         <Button
           type="button"
-          variant="tertiary"
+          variant="outline"
           onClick={() => setTab(tab - 1)}
           className="w-[50%]"
         >

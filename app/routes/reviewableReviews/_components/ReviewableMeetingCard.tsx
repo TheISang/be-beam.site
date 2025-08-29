@@ -75,7 +75,7 @@ export default function ReviewableMeetingCard({
       <div className="mt-5">
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
           <DialogTrigger asChild>
-            <Button variant="default" size="sm" className="w-full">
+            <Button variant="default" size="md" className="w-full">
               ✍️후기 작성하기
             </Button>
           </DialogTrigger>

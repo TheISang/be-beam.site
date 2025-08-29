@@ -133,8 +133,8 @@ const MeetingDetailMeetingReviewsContainer = ({
           />
         ))}
         <Button
-          variant="tertiary"
-          size="sm"
+          variant="outline"
+          size="md"
           className={`${btnIsVisible && hasNextPage ? 'block' : 'hidden'} fixed bottom-5 left-[25%] z-50 w-75 border-gray-500 text-gray-600`}
           onClick={() => {
             if (hasNextPage && !isFetchingNextPage) {

@@ -167,7 +167,7 @@ export default function MeetingReviewCard({
       </div>
 
       <Button
-        variant="tertiary"
+        variant="outline"
         className="mt-8 h-10 min-w-31 rounded-full border-gray-300 text-t4 text-gray-500"
         onClick={handleLikeReview}
       >

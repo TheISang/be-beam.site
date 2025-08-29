@@ -64,7 +64,7 @@ export function DateRangePicker({
         <PopoverTrigger asChild>
           <Button
             id="date"
-            variant="tertiary"
+            variant="outline"
             className={cn(
               'w-full justify-between border-gray-400 text-left text-t4',
               !date?.from ? 'text-gray-500' : 'text-black',
