@@ -1,5 +1,6 @@
 import {
   isRouteErrorResponse,
+  Link,
   Links,
   Meta,
   Outlet,
@@ -21,6 +22,7 @@ import Navbar from './shared/components/common/Navbar';
 import { Toaster } from './shared/components/ui/Toaster';
 import ModalProvider from './shared/providers/ModalProvider';
 import Footer from '@/shared/components/common/Footer';
+import { Button } from '@/shared/components/ui/Button';
 
 export const unstable_middleware = [sessionMiddleware, globalStorageMiddleware];
 
@@ -97,15 +99,31 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
     stack = error.stack;
   }
 
+  if (import.meta.env.DEV) {
+    return (
+      <main className="container mx-auto p-4 pt-16">
+        <h1>{message}</h1>
+        <p>{details}</p>
+        {stack && (
+          <pre className="w-full overflow-x-auto p-4">
+            <code>{stack}</code>
+          </pre>
+        )}
+      </main>
+    );
+  }
+
   return (
-    <main className="container mx-auto p-4 pt-16">
-      <h1>{message}</h1>
-      <p>{details}</p>
-      {stack && (
-        <pre className="w-full overflow-x-auto p-4">
-          <code>{stack}</code>
-        </pre>
-      )}
+    <main className="container mx-auto flex h-dvh flex-col items-center justify-center p-4 pt-16">
+      <div>
+        <h1 className="text-center text-9xl font-bold text-primary">404</h1>
+        <p className="mt-1 text-center text-t1">
+          예상치 못한 오류가 발생했습니다.
+        </p>
+      </div>
+      <Button asChild className="mt-4">
+        <Link to="/">홈으로</Link>
+      </Button>
     </main>
   );
 }
