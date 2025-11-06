@@ -7,17 +7,15 @@ export const createMeetingFirstSchema = z.object({
   name: z.string().min(2),
   introduction: z.string().min(10).max(1000),
   topicId: z.number().min(1).nullable(),
-  hashtags: z
-    .array(
-      z.object({
-        value: z
-          .string()
-          .trim()
-          .min(1, '해시태그는 비어 있을 수 없습니다.')
-          .max(20, '해시태그는 최대 20자까지 가능합니다.'),
-      }),
-    )
-    .min(1, '해시태그는 최소 1개 이상 등록해야 합니다.'),
+  hashtags: z.array(
+    z.object({
+      value: z
+        .string()
+        .trim()
+        .min(1, '해시태그는 비어 있을 수 없습니다.')
+        .max(20, '해시태그는 최대 20자까지 가능합니다.'),
+    }),
+  ),
   thumbnailImage: z
     .instanceof(File, { message: '썸네일 이미지를 업로드해주세요.' })
     .refine((file) => file.size > 0, '파일이 비어있습니다.')
