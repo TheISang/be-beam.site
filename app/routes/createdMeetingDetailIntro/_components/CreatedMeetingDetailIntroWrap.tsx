@@ -4,6 +4,9 @@ import useEditMeetingIntroMutation from '@/features/meetings/hooks/useEditMeetin
 import { Controller, useFieldArray, useForm } from 'react-hook-form';
 import { editCreatedMeetingFirstSchema } from '@/features/meetings/schemas/meeting';
 import { zodResolver } from '@hookform/resolvers/zod';
+import { createdMeetingIntroQueryOptions } from '@/features/meetings/hooks/useCreatedMeetingIntroQuery';
+import { topicsQueryOptions } from '@/features/meetings/hooks/useTopicsQuery';
+
 import type { z } from 'zod';
 import type { Topic } from '@/shared/types/entities';
 import { cn } from '@/styles/tailwind';
@@ -11,8 +14,6 @@ import Text from '../../../shared/components/ui/Text';
 import { Button } from '../../../shared/components/ui/Button';
 import { Input } from '../../../shared/components/ui/Input';
 import { Textarea } from '../../../shared/components/ui/Textarea';
-import { createdMeetingIntroQueryOptions } from '@/features/meetings/hooks/useCreatedMeetingIntroQuery';
-import { topicsQueryOptions } from '@/features/meetings/hooks/useTopicsQuery';
 
 export default function CreatedMeetingDetailIntroWrap({
   meetingId,
