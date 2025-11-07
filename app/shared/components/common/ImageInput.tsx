@@ -107,7 +107,7 @@ const usePreviewUrls = () => {
     return () => {
       previewUrls.forEach((url) => URL.revokeObjectURL(url));
     };
-  }, []);
+  }, [previewUrls]);
 
   return { previewUrls, addPreviewUrl, removePreviewUrl, cleanupUnusedUrls };
 };
