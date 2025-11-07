@@ -4,8 +4,6 @@ import useAppliedMeetingsQuery from '@/features/meetings/hooks/useAppliedMeeting
 import usePagination from '@/shared/hooks/usePagination';
 
 import type { MyAppliedMeetingFilters } from '@/features/mypage/schemas/userFilters';
-import type { MyPageMeetingSummary } from '@/shared/types/entities';
-import MeetingCard from '../../../features/meetings/components/MeetingCard';
 import {
   Pagination,
   PaginationContent,
@@ -14,6 +12,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from '../../../shared/components/ui/Pagination';
+import MeetingCardWithAddress from '@/features/meetings/components/MeetingCardWithAddress';
 
 interface RequestedMeetingWrapProps {
   filters: MyAppliedMeetingFilters;
@@ -51,17 +50,18 @@ export default function RequestedMeetingWrap({
   return (
     <>
       <div className="mx-auto grid w-full grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-4 md:gap-5">
-        {requestMeetings?.meetings?.map((meeting: MyPageMeetingSummary) => (
-          <MeetingCard
+        {requestMeetings?.meetings?.map((meeting) => (
+          <MeetingCardWithAddress
             key={meeting.id}
-            image={meeting.thumbnailImage}
+            id={meeting.id}
+            thumbnailImage={meeting.thumbnailImage}
+            recruitmentStatus={meeting.recruitmentStatus}
             recruitmentType={meeting.recruitmentType}
             userStatus={meeting.userStatus}
             name={meeting.name}
             meetingStartTime={meeting.meetingStartTime}
-            meetingEndTime={meeting.meetingEndTime}
+            address={meeting.address}
             onClick={() => navigate(`/meeting/${meeting.id}`)}
-            isLikeBtn={false}
           >
             {/* TODO: requestMeetings?.status 값이 무엇인지 모르겠음 */}
             {/* {requestMeetings?.status !== 'rejected' &&
@@ -90,7 +90,7 @@ export default function RequestedMeetingWrap({
                   </DropdownMenuItem>
                 </MoreDropdownMenu>
               )} */}
-          </MeetingCard>
+          </MeetingCardWithAddress>
         ))}
       </div>
 

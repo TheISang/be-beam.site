@@ -8,7 +8,6 @@ import usePagination from '@/shared/hooks/usePagination';
 
 import { type MyPageMeetingResult } from '@/shared/api/endpoints/mypage';
 import type { MyCreatedMeetingFilters } from '@/features/mypage/schemas/userFilters';
-import MeetingCard from '../../../features/meetings/components/MeetingCard';
 import {
   Pagination,
   PaginationContent,
@@ -20,6 +19,7 @@ import {
 import { DropdownMenuItem } from '../../../shared/components/ui/DropdownMenu';
 import MoreDropdownMenu from '../../../shared/components/common/MoreDropdownMenu';
 import toast from 'react-hot-toast';
+import MeetingCardWithAddress from '@/features/meetings/components/MeetingCardWithAddress';
 
 interface CreatedMeetingWrapProps {
   filters: MyCreatedMeetingFilters;
@@ -63,16 +63,16 @@ export default function CreatedMeetingWrap({
     <>
       <div className="mx-auto grid w-full grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-4 md:gap-5">
         {createdMeetings?.meetings?.map((meeting: MyPageMeetingResult) => (
-          <MeetingCard
+          <MeetingCardWithAddress
             key={meeting.id}
-            image={meeting.thumbnailImage}
+            id={meeting.id}
+            thumbnailImage={meeting.thumbnailImage}
             recruitmentType={meeting.recruitmentType}
             recruitmentStatus={meeting.recruitmentStatus}
             name={meeting.name}
             meetingStartTime={meeting.meetingStartTime}
-            meetingEndTime={meeting.meetingEndTime}
+            address={meeting.address}
             onClick={() => navigate(`/myPage/created/${meeting.id}/intro`)}
-            isLikeBtn={false}
           >
             {meeting.recruitmentStatus !== '모집마감' &&
               meeting.recruitmentStatus !== '모임중' &&
@@ -97,7 +97,7 @@ export default function CreatedMeetingWrap({
                   </DropdownMenuItem>
                 </MoreDropdownMenu>
               )}
-          </MeetingCard>
+          </MeetingCardWithAddress>
         ))}
       </div>
 
