@@ -220,7 +220,10 @@ const ImageItem: React.FC<{
   onRemove: () => void;
   disabled?: boolean;
 }> = ({ item, onRemove, disabled }) => (
-  <div key={item.id} className="relative size-26 overflow-hidden rounded-lg">
+  <div
+    key={item.id}
+    className="relative aspect-square w-full overflow-hidden rounded-lg"
+  >
     <img
       src={item.type === 'existing' ? item.url : item.preview}
       alt="업로드된 이미지"
@@ -249,7 +252,7 @@ const UploadButton: React.FC<{
       type="button"
       onClick={onClick}
       disabled={disabled}
-      className="flex size-26 cursor-pointer flex-col items-center justify-center gap-1.5 rounded-lg border border-dashed border-gray-500 transition-colors hover:bg-gray-50"
+      className="flex aspect-square w-full cursor-pointer flex-col items-center justify-center gap-1.5 rounded-lg border border-dashed border-gray-500 transition-colors hover:bg-gray-50"
     >
       <CameraIcon className="size-6 text-gray-500" />
       <span className="text-xs text-gray-500">
@@ -326,7 +329,7 @@ export const ImageInput: React.FC<ImageInputProps> = ({
     <div className={`space-y-4 ${className}`}>
       {/* Image Grid */}
       {imageItems.length > 0 && (
-        <div className="flex flex-wrap gap-2">
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
           {imageItems.map((item) => (
             <ImageItem
               key={item.id}
