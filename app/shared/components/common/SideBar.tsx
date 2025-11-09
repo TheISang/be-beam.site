@@ -47,11 +47,6 @@ export default function SideBar({ user }: { user: UserType }) {
       title: '🙆 개인정보 수정',
       onClick: () => setIsMeetingPage(false),
     },
-    {
-      to: '/mypage/notifications',
-      title: '🔔 나의 알림',
-      onClick: () => setIsMeetingPage(false),
-    },
   ];
 
   return (
