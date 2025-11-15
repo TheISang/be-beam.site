@@ -65,7 +65,7 @@ export default function MeetingRecommendations({
             setTab(value as 'all' | 'regular' | 'small')
           }
         >
-          <div className="flex w-full items-center justify-between px-4">
+          <div className="flex w-full items-center justify-between gap-4 overflow-x-auto px-4">
             <TabsList className="h-auto gap-3 before:h-0">
               {tabList.map((data, idx) => (
                 <TabsTrigger
@@ -83,6 +83,7 @@ export default function MeetingRecommendations({
                 navigate(`/meetings?search=&recruitment-type=${tab}&${moreUrl}`)
               }
               className="px-4 py-3"
+              variant="ghost"
             >
               더보기
             </Button>

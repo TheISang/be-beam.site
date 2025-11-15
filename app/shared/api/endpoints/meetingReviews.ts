@@ -2,7 +2,7 @@ import type { meetingReviewFilterType } from '@/routes/meetingDetail/_components
 import { API_V2_BASE_URL } from '@/shared/constants/api';
 import { axiosInstance } from '@/shared/api/axios';
 import type { APIResponse, CursorPaginationResult } from '@/shared/types/api';
-import type { Meeting, Review } from '@/shared/types/entities';
+import type { ImageType, Meeting, Review } from '@/shared/types/entities';
 
 export type MeetingReviewsResult = {
   reviews: {
@@ -19,6 +19,8 @@ export type MeetingReviewsResult = {
     meeting: {
       id: Meeting['id'];
       name: Meeting['name'];
+      recruitmentType: '정기모임' | '소모임';
+      image: ImageType;
     };
   }[];
   pageInfo: CursorPaginationResult;

@@ -41,7 +41,7 @@ export default [
       route('/following', 'routes/myFollowing/index.tsx'),
       route('/profile', 'routes/myProfile/index.tsx'),
       route('/info', 'routes/myInformation/index.tsx'),
-      route('/notifications', 'routes/myNotifications/index.tsx'),
+      // route('/notifications', 'routes/myNotifications/index.tsx'),
     ]),
   ]),
   layout('shared/components/layout/createdMeetingDetail.tsx', [

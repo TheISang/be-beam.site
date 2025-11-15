@@ -22,7 +22,7 @@ export type MyPageMeetingResult = {
   recruitmentStatus: Meeting['recruitmentStatus'];
   thumbnailImage: MeetingSummary['image'];
   meetingStartTime: MeetingSchedule['meetingStartTime'];
-  meetingEndTime: MeetingSchedule['meetingEndTime'];
+  address: Meeting['address'];
   userStatus: Meeting['userStatus'];
 };
 

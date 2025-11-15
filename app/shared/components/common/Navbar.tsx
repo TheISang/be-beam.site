@@ -45,7 +45,6 @@ const USER_MENU_ITEMS: MenuItem[] = [
   { to: '/myPage/likes', label: '💖 좋아요 리스트' },
   { to: '/myPage/following', label: '⭐ 팔로잉 리스트' },
   { to: '/myPage/info', label: '🙆 개인정보 수정' },
-  { to: '/myPage/notifications', label: '🔔 알림' },
 ];
 
 const useSearch = () => {

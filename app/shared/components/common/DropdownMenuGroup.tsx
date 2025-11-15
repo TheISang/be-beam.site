@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import type { MeetingListFilters } from '@/features/meetings/schemas/meetingFilters';
 import {
   DropdownMenu,
@@ -19,6 +20,9 @@ export default function DropdownMenuGroup({
   selectedFilters,
   onDropdownChange,
 }: DropdownMenuGroupProps) {
+  const [openDropdowns, setOpenDropdowns] = useState<Record<string, boolean>>(
+    {},
+  );
   return (
     <div className="flex w-full gap-3 overflow-x-auto">
       {datas.map((item) => {
@@ -29,12 +33,28 @@ export default function DropdownMenuGroup({
             ? item.defaultLabel
             : item.options[item.values.indexOf(String(selectedValue))];
         return (
-          <DropdownMenu key={item.label} className="flex-shrink-0">
-            <DropdownMenuTrigger className="flex cursor-pointer items-center gap-1 rounded-xl border-2 border-[#e5e5e5] px-3 py-[6px] text-b1 font-medium whitespace-nowrap text-black outline-none">
+          <DropdownMenu
+            key={item.label}
+            className="flex-shrink-0"
+            open={openDropdowns[item.label] || false}
+            onOpenChange={(open) =>
+              setOpenDropdowns((prev) => ({ ...prev, [item.label]: open }))
+            }
+          >
+            <DropdownMenuTrigger
+              className="flex cursor-pointer items-center gap-1 rounded-xl border-2 border-[#e5e5e5] px-3 py-[6px] text-b1 font-medium whitespace-nowrap text-black outline-none"
+              onPointerDown={(e) => e.preventDefault()}
+              onClick={() =>
+                setOpenDropdowns((prev) => ({
+                  ...prev,
+                  [item.label]: !prev[item.label],
+                }))
+              }
+            >
               {triggerLabel}
               <ArrowDownIcon className="text-[#a1a1a1]" />
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="min-w-24 bg-gray-200">
+            <DropdownMenuContent className="min-w-24">
               {item.options.map((option, idx) => (
                 <DropdownMenuItem
                   className="cursor-pointer"

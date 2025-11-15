@@ -307,7 +307,7 @@ export default function MeetingDetailWrap({ id }: { id: number }) {
             </TitleAndDes>
           )}
 
-          <div className="fixed bottom-0 left-0 box-border flex w-full items-center justify-between gap-10 bg-white p-5 shadow-[0_-2px_14px_4px_rgba(0,0,0,0.1)] lg:hidden">
+          <div className="fixed bottom-0 left-0 z-10 box-border flex w-full items-center justify-between gap-10 bg-white p-5 shadow-[0_-2px_14px_4px_rgba(0,0,0,0.1)] lg:hidden">
             <Tag
               variant="tertiary"
               className={cn(

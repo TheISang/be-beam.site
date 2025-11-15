@@ -123,7 +123,7 @@ function AlertDialogAction({
     <AlertDialogPrimitive.Action
       className={cn(
         focusVisibleRing(),
-        buttonVariants({ size: 'sm' }),
+        buttonVariants({ size: 'md' }),
         'w-full flex-1 p-0',
         className,
       )}

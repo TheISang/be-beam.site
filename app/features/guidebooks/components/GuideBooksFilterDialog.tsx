@@ -68,7 +68,7 @@ export default function GuideBooksFilterDialog() {
 
   return (
     <Dialog open={isOpen} onOpenChange={handleDialogClose}>
-      <DialogContent className="box-border w-full max-w-[480px] rounded-lg bg-white p-7 shadow-lg">
+      <DialogContent className="box-border w-full max-w-[calc(100vw-2rem)] rounded-lg bg-white p-7 shadow-lg sm:max-w-[480px]">
         <DialogHeader className="mb-3 flex w-full flex-row items-center justify-between">
           <DialogTitle className="text-t2">필터</DialogTitle>
         </DialogHeader>

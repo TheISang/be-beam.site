@@ -12,7 +12,8 @@ const buttonVariants = cva(
         default:
           'bg-primary text-white hover:bg-primary/90 disabled:bg-gray-300 disabled:text-gray-500 disabled:border-gray-300',
         outline:
-          'bg-white text-gray-600 border border-gray-600 disabled:opacity-50',
+          'bg-white text-gray-700 border border-gray-300 disabled:opacity-50',
+        ghost: 'hover:bg-gray-100',
       },
       size: {
         md: 'h-12 px-6',
