@@ -27,6 +27,7 @@ import { meetingQueryKeys } from '@/features/meetings/queries/queryKeys';
 
 import { Checkbox } from '@/shared/components/ui/Checkbox';
 import TrashIcon from '@/shared/components/icons/TrashIcon';
+
 interface CreateMeetingFourthContentProps {
   tab: number;
   setTab: (tab: number) => void;
@@ -47,7 +48,7 @@ export default function CreateMeetingFourthContent({
     Set<number | null>
   >(new Set());
 
-  const { control, handleSubmit, formState } = useForm<
+  const { control, handleSubmit, formState, getValues } = useForm<
     z.infer<typeof createMeetingFourthSchema>
   >({
     resolver: zodResolver(createMeetingFourthSchema),
@@ -69,8 +70,6 @@ export default function CreateMeetingFourthContent({
     control,
     name: 'schedules',
   });
-
-  console.log(form);
 
   const { mutate: createMeeting, isPending } = useMutation({
     mutationFn: (form: CreateMeeting) => {
@@ -173,12 +172,17 @@ export default function CreateMeetingFourthContent({
 
     indexesToDelete.forEach((field) => {
       const idx = fields.findIndex((f) => f.id === field.id);
-      console.log(idx);
       remove(idx);
+
+      const updatedSchedules = getValues('schedules');
+      setForm({
+        ...form,
+        schedules: updatedSchedules,
+      });
     });
 
     setSelectedScheduleIds(new Set());
-  }, [selectedScheduleIds, fields, remove]);
+  }, [selectedScheduleIds, fields, remove, form, getValues, setForm]);
 
   return (
     <form
@@ -207,8 +211,8 @@ export default function CreateMeetingFourthContent({
               type="button"
               size="md"
               className={cn(
-                form.recruitmentType === '소모임' && 'hidden',
-                'hidden px-5 md:flex',
+                form.recruitmentType === '소모임' ? 'hidden' : 'flex',
+                'px-5',
               )}
               onClick={() => {
                 const newSchedule = {
@@ -419,32 +423,6 @@ export default function CreateMeetingFourthContent({
               </AccordionItem>
             </Accordion>
           ))}
-          <Button
-            type="button"
-            size="md"
-            className={cn(
-              form.recruitmentType === '소모임' && 'hidden',
-              'mt-5 flex w-full px-5 md:hidden',
-            )}
-            onClick={() => {
-              const newSchedule = {
-                meetingDate: '',
-                meetingStartTime: '',
-                meetingEndTime: '',
-                address: '',
-                addressDetail: '',
-              };
-
-              append(newSchedule);
-              setForm({
-                ...form,
-                schedules: [...form.schedules, newSchedule],
-              });
-            }}
-          >
-            <img src="/images/icons/w_plus.svg" alt="plus_icon" />
-            일정 등록하기
-          </Button>
         </div>
       </div>
 
