@@ -241,7 +241,7 @@ export default function CreateMeetingSecondContent({
         <div className="mb-7 w-full">
           <Text variant="T2_Semibold">해쉬태그</Text>
           <Input
-            placeholder="해시태그를 입력해 주세요"
+            placeholder="해쉬태그를 입력해 주세요"
             className="mt-3 flex-1"
             value={currentHashtagInput}
             onChange={(e) => setCurrentHashtagInput(e.target.value)}
@@ -277,10 +277,6 @@ export default function CreateMeetingSecondContent({
                 </button>
               </div>
             ))}
-          </div>
-
-          <div className="mt-3 box-border rounded-lg bg-gray-200 p-3 text-b3 text-gray-600">
-            해쉬태그를 1개 이상 입력해주세요.
           </div>
         </div>
 

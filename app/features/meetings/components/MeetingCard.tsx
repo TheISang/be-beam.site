@@ -1,4 +1,5 @@
 import { formatToMonthAndDayDate } from '@/shared/utils/date';
+import { formatNumberWithComma } from '@/shared/utils/cash';
 
 import { cn } from '@/styles/tailwind';
 import type { MeetingSummary } from '@/shared/types/entities';
@@ -6,7 +7,6 @@ import Text from '../../../shared/components/ui/Text';
 import { Tag } from '../../../shared/components/ui/Tag';
 import HeartFillIcon from '@/shared/components/icons/HeartFillIcon';
 import HeartIcon from '@/shared/components/icons/HeartIcon';
-import { formatNumberWithComma } from '@/shared/utils/cash';
 
 export interface MeetingCardProp extends MeetingSummary {
   onClick: () => void;
@@ -69,8 +69,8 @@ export default function MeetingCard({
 
       <div
         className={cn(
-          isLikeBtn ? 'block' : 'hidden',
-          'absolute top-5 right-5 flex h-9 w-9 items-center justify-center rounded-full bg-[rgba(0,0,0,0.3)]',
+          isLikeBtn ? 'flex' : 'hidden',
+          'absolute top-5 right-5 h-9 w-9 items-center justify-center rounded-full bg-[rgba(0,0,0,0.3)]',
         )}
       >
         <div onClick={onLikeClick}>

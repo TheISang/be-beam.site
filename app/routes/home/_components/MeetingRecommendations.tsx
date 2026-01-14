@@ -29,6 +29,7 @@ export default function MeetingRecommendations({
   const navigate = useNavigate();
   const rootLoaderData = useRouteLoaderData('root');
   const user = rootLoaderData.user;
+  console.log('user', user);
 
   const [tab, setTab] = useState<'all' | 'regular' | 'small'>('all');
   const { data: datas, isLoading } = useMeetingRecommendationQuery(type, tab);
@@ -92,38 +93,36 @@ export default function MeetingRecommendations({
           {tabList?.map((tab, idx) => (
             <TabsContent key={idx} value={tab.value} className="mt-5 w-full">
               <div className="overflow-x-auto pl-4">
-                <div className="flex gap-4 md:grid md:grid-cols-4">
-                  {isLoading ? (
-                    <LoadingSpinner />
-                  ) : (
-                    <>
-                      {datas?.map((meeting: RecommendationMeeting) => (
-                        <MeetingCard
-                          classNames="w-[40vw] md:w-full shrink-0"
-                          key={meeting.id}
-                          name={meeting.name}
-                          image={meeting.thumbnailImage}
-                          recruitmentStatus={meeting.recruitmentStatus}
-                          recruitmentType={meeting.recruitmentType}
-                          meetingStartTime={meeting.meetingStartTime}
-                          meetingEndTime={meeting.meetingEndTime}
-                          paymentAmount={meeting.paymentAmount}
-                          onClick={() => navigate(`/meeting/${meeting.id}`)}
-                          onLikeClick={() => {
-                            if (isPending) return;
-                            if (meeting) {
-                              likeMeeting(
-                                meeting as { id: number; liked: boolean },
-                              );
-                            }
-                          }}
-                          isLikeBtn={user}
-                          liked={meeting.liked}
-                        />
-                      ))}
-                    </>
-                  )}
-                </div>
+                {isLoading ? (
+                  <LoadingSpinner />
+                ) : (
+                  <div className="flex gap-4 md:grid md:grid-cols-4">
+                    {datas?.map((meeting: RecommendationMeeting) => (
+                      <MeetingCard
+                        classNames="w-[40vw] md:w-full shrink-0"
+                        key={meeting.id}
+                        name={meeting.name}
+                        image={meeting.thumbnailImage}
+                        recruitmentStatus={meeting.recruitmentStatus}
+                        recruitmentType={meeting.recruitmentType}
+                        meetingStartTime={meeting.meetingStartTime}
+                        meetingEndTime={meeting.meetingEndTime}
+                        paymentAmount={meeting.paymentAmount}
+                        onClick={() => navigate(`/meeting/${meeting.id}`)}
+                        onLikeClick={() => {
+                          if (isPending) return;
+                          if (meeting) {
+                            likeMeeting(
+                              meeting as { id: number; liked: boolean },
+                            );
+                          }
+                        }}
+                        isLikeBtn={user}
+                        liked={meeting.liked}
+                      />
+                    ))}
+                  </div>
+                )}
               </div>
             </TabsContent>
           ))}
