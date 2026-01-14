@@ -1,12 +1,14 @@
 {
   "include": [
-    "**/*",
+    ".storybook/**/*",
     "app/**/*",
-    "**/.server/**/*",
-    "**/.client/**/*",
-    ".react-router/types/**/*"
+    "server/**/*",
+    "shared/**/*",
+    ".storybook/**/*",
+    ".react-router/types/**/*",
+    "*.ts"
   ],
-  "exclude": ["public/mockServiceWorker.js"],
+  "exclude": ["public/mockServiceWorker.js", "build/", "node_modules", "dist"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "types": ["vite/client"],
@@ -16,7 +18,8 @@
     "jsx": "react-jsx",
     "rootDirs": [".", "./.react-router/types"],
     "paths": {
-      "@/*": ["./app/*"]
+      "@/*": ["./app/*"],
+      ".react-router/*": ["./.react-router/*"]
     },
     "allowJs": true,
     "checkJs": true,

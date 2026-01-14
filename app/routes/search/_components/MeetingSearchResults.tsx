@@ -1,11 +1,13 @@
-import MeetingCard from '@/features/meetings/components/MeetingCard';
+import MeetingCardWithAddress from '@/features/meetings/components/MeetingCardWithAddress';
 import useLikeMeetingMutation from '@/features/meetings/hooks/useLikeMeetingMutation';
 import useSearchMeetingsQuery from '@/features/search/hooks/useSearchMeetingsQuery';
 import useUserSession from '@/features/users/hooks/useUserSession';
 import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
+import { useNavigate } from 'react-router';
 
 export default function MeetingSearchResults({ query }: { query: string }) {
+  const navigate = useNavigate();
   const { user } = useUserSession();
   const { ref, inView } = useInView();
   const { data, fetchNextPage, hasNextPage, isFetchingNextPage } =
@@ -33,18 +35,21 @@ export default function MeetingSearchResults({ query }: { query: string }) {
       {allMeetings.length ? (
         <div className="mt-6 grid grid-cols-[repeat(auto-fill,minmax(256px,1fr))] gap-5 lg:grid-cols-4">
           {allMeetings?.map((meeting) => (
-            <MeetingCard
+            <MeetingCardWithAddress
               key={meeting.id}
-              image={meeting.image}
+              id={meeting.id}
+              thumbnailImage={meeting.image}
               recruitmentType={meeting.recruitmentType}
               recruitmentStatus={meeting.recruitmentStatus}
               name={meeting.name}
               meetingStartTime={meeting.meetingStartTime}
               address={meeting.address}
-              onClick={() => {}}
-              isLikeBtn={user ? true : false}
+              onClick={() => {
+                navigate(`/meeting/${meeting.id}`);
+              }}
               liked={meeting.liked}
               onLikeClick={() => {
+                if (!user) return alert('로그인 후 이용해주세요.');
                 if (isPending) return;
                 if (meeting) {
                   likeMeeting({

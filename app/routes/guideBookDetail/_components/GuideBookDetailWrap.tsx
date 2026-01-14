@@ -51,7 +51,7 @@ export default function GuideBookDetailWrap({
               delay={5000}
               isCount={true}
               slideWidth="w-full"
-              slideHeight="h-auto aspect-square"
+              slideHeight="h-auto aspect-square object-contain"
             />
             <Button
               onClick={handleDownloadClick}

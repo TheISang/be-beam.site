@@ -20,7 +20,7 @@ export default function ReviewFilters({
   onSortChange,
 }: ReviewFiltersProps) {
   return (
-    <div className="mt-4.5 flex w-full items-center justify-between gap-5">
+    <div className="mt-4.5 flex w-full flex-col items-start justify-between gap-5 sm:flex-row sm:items-center">
       <div className="flex items-center gap-5">
         <ImageFilterChip
           isActive={type === 'image'}

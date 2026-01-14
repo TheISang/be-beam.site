@@ -1,43 +1,51 @@
 import { formatToMonthAndDayDate } from '@/shared/utils/date';
-import { formatNumberWithComma } from '@/shared/utils/cash';
 
 import { cn } from '@/styles/tailwind';
-import type { MeetingSummary } from '@/shared/types/entities';
+import type {
+  ImageType,
+  Meeting,
+  MeetingSchedule,
+} from '@/shared/types/entities';
 import Text from '../../../shared/components/ui/Text';
 import { Tag } from '../../../shared/components/ui/Tag';
 import HeartFillIcon from '@/shared/components/icons/HeartFillIcon';
 import HeartIcon from '@/shared/components/icons/HeartIcon';
 
-export interface MeetingCardProp extends MeetingSummary {
+export interface MeetingCardWithAddressProp {
+  id: Meeting['id'];
+  name: Meeting['name'];
+  recruitmentStatus: Meeting['recruitmentStatus'];
+  recruitmentType: Meeting['recruitmentType'];
+  meetingStartTime: MeetingSchedule['meetingStartTime'];
+  thumbnailImage: ImageType;
+  address: Meeting['address'];
+  liked?: Meeting['liked'];
   onClick: () => void;
   classNames?: string;
-  isLikeBtn?: boolean;
   onLikeClick?: () => void;
   children?: React.ReactNode;
   userStatus?: string;
 }
 
-export default function MeetingCard({
-  image,
+export default function MeetingCardWithAddress({
+  address,
+  thumbnailImage,
   recruitmentType,
   recruitmentStatus,
   userStatus,
   name,
   meetingStartTime,
-  meetingEndTime,
-  paymentAmount,
   onClick,
   classNames,
-  isLikeBtn = false,
   onLikeClick,
   liked,
   children,
-}: MeetingCardProp) {
+}: MeetingCardWithAddressProp) {
   return (
     <div className={cn('relative w-full cursor-pointer', classNames)}>
       <img
-        className="aspect-[358/226] w-full rounded-2xl object-cover shadow-[0_6px_8px_1px_rgba(0,0,0,0.1)]"
-        src={image}
+        className="aspect-[358/226] w-full rounded-2xl object-cover"
+        src={thumbnailImage}
         alt="meeting_thumbnail"
       />
 
@@ -51,7 +59,7 @@ export default function MeetingCard({
                 userStatus === '참여완료' ||
                 userStatus === '확정'
               ? 'blue'
-              : recruitmentStatus === '모집종료' ||
+              : recruitmentStatus === '모집마감' ||
                   userStatus === '중도이탈신청중' ||
                   userStatus === '신청취소중'
                 ? 'tertiary'
@@ -69,7 +77,7 @@ export default function MeetingCard({
 
       <div
         className={cn(
-          isLikeBtn ? 'flex' : 'hidden',
+          liked === undefined ? 'hidden' : 'flex',
           'absolute top-5 right-5 h-9 w-9 items-center justify-center rounded-full bg-[rgba(0,0,0,0.3)]',
         )}
       >
@@ -89,25 +97,20 @@ export default function MeetingCard({
         <Text variant="T2_Semibold" onClick={onClick} className="line-clamp-1">
           {name}
         </Text>
-        <Text
-          variant="B3_Regular"
-          color="gray-600"
-          className="mt-1 line-clamp-1"
-        >
-          {`${formatToMonthAndDayDate(meetingStartTime)} ~ ${formatToMonthAndDayDate(meetingEndTime)}`}
-        </Text>
 
-        {(paymentAmount || paymentAmount === 0) && (
-          <Text
-            variant="T2_Semibold"
-            color="dark-primary"
-            className="mt-3 line-clamp-1"
-          >
-            {paymentAmount === 0
-              ? '무료'
-              : `${formatNumberWithComma(paymentAmount)}원`}
+        <div className="mt-3 flex items-center gap-2">
+          <img src="/images/icons/location.svg" alt="location_icon" />
+          <Text variant="B3_Regular" color="gray-600" className="line-clamp-1">
+            {address}
           </Text>
-        )}
+        </div>
+
+        <div className="mt-1 flex items-center gap-2">
+          <img src="/images/icons/clock.svg" alt="clock_icon" />
+          <Text variant="B3_Regular" color="gray-600">
+            {`모임 시작일 ${formatToMonthAndDayDate(meetingStartTime)}`}
+          </Text>
+        </div>
 
         {children}
       </div>

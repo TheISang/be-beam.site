@@ -1,4 +1,4 @@
-import MeetingCard from '@/features/meetings/components/MeetingCard';
+import MeetingCardWithAddress from '@/features/meetings/components/MeetingCardWithAddress';
 import useLikeMeetingMutation from '@/features/meetings/hooks/useLikeMeetingMutation';
 import useSearchTotalQuery from '@/features/search/hooks/useSearchTotalQuery';
 import HostCard from '@/features/users/components/HostCard';
@@ -40,18 +40,19 @@ export default function AllSearchResults({ query }: { query: string }) {
         {data?.meetings.length ? (
           <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {data?.meetings.map((meeting) => (
-              <MeetingCard
+              <MeetingCardWithAddress
                 key={meeting.id}
-                image={meeting.image}
+                id={meeting.id}
+                thumbnailImage={meeting.image}
                 name={meeting.name}
                 meetingStartTime={meeting.meetingStartTime}
                 recruitmentType={meeting.recruitmentType}
                 recruitmentStatus={meeting.recruitmentStatus}
                 address={meeting.address}
                 liked={meeting.liked}
-                isLikeBtn={user ? true : false}
                 onClick={() => navigate(`/meeting/${meeting.id}`)}
                 onLikeClick={() => {
+                  if (!user) return alert('로그인 후 이용해주세요.');
                   if (isPending) return;
                   if (meeting) {
                     likeMeeting(meeting as { id: number; liked: boolean });

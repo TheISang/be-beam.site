@@ -38,7 +38,7 @@ export default function NavbarUserSection({
           <NotificationPopover />
         </PopoverContent>
       </Popover>
-      <DropdownMenu>
+      <DropdownMenu className="mt-1">
         <DropdownMenuTrigger>
           <img
             className="h-7 w-7 cursor-pointer rounded-full object-cover"

@@ -65,7 +65,7 @@ const MeetingDetailReviews = ({
         </span>
       </Text>
 
-      <div className="mb-4 flex w-full items-center justify-between gap-5">
+      <div className="mb-4 flex w-full flex-col items-start justify-between gap-5 sm:flex-row sm:items-center">
         <div className="flex items-center gap-5">
           <ImageFilterChip
             isActive={filter.type === 'image'}
@@ -92,7 +92,7 @@ const MeetingDetailReviews = ({
             <RadioGroupItem
               value="recent"
               id="sort-recent"
-              className="cursor-pointer rounded-md px-3 py-2 text-b1 text-gray-500 data-[state=checked]:bg-white data-[state=checked]:text-black data-[state=checked]:shadow-[0_0_1.7px_0_rgba(0,0,0,0.08)]"
+              className="cursor-pointer rounded-md px-3 py-2 text-b1 whitespace-nowrap text-gray-500 data-[state=checked]:bg-white data-[state=checked]:text-black data-[state=checked]:shadow-[0_0_1.7px_0_rgba(0,0,0,0.08)]"
             >
               최신순
             </RadioGroupItem>
@@ -100,7 +100,7 @@ const MeetingDetailReviews = ({
             <RadioGroupItem
               value="likes"
               id="sort-like"
-              className="cursor-pointer rounded-md px-3 py-2 text-b1 text-gray-500 data-[state=checked]:bg-white data-[state=checked]:text-black data-[state=checked]:shadow-[0_0_1.7px_0_rgba(0,0,0,0.08)]"
+              className="cursor-pointer rounded-md px-3 py-2 text-b1 whitespace-nowrap text-gray-500 data-[state=checked]:bg-white data-[state=checked]:text-black data-[state=checked]:shadow-[0_0_1.7px_0_rgba(0,0,0,0.08)]"
             >
               좋아요순
             </RadioGroupItem>

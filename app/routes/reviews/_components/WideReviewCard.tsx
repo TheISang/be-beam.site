@@ -55,8 +55,8 @@ interface WideReviewCardProps {
   meeting: {
     id: number;
     name: string;
-    recruitmentType?: '정기모임' | '소모임';
-    image?: string;
+    recruitmentType: '정기모임' | '소모임';
+    image: string;
   };
 }
 

@@ -19,7 +19,7 @@ export default function GuideBooksFilterTabGroup({
       value={value}
       onValueChange={onValueChange}
     >
-      <TabsList className="h-auto gap-3 before:h-0">
+      <TabsList className="h-auto flex-wrap gap-3 before:h-0">
         {list.map((data, idx) => (
           <TabsTrigger
             key={idx}
