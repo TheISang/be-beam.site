@@ -184,6 +184,8 @@ export default function CreateMeetingFourthContent({
     setSelectedScheduleIds(new Set());
   }, [selectedScheduleIds, fields, remove, form, getValues, setForm]);
 
+  console.log('form', form);
+
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
